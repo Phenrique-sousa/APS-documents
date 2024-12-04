@@ -128,11 +128,8 @@ Os usuários podem acessar o SGFPO por meio de navegadores web em dispositivos c
 
 A interação com o SGFPO ocorre via conexão de rede, geralmente pela Internet. O servidor que hospeda o sistema processa solicitações HTTP recebidas dos dispositivos dos usuários e retorna as informações necessárias, permitindo o gerenciamento completo de expositores, participantes e vendas.
 
-o SGFPO pode ser integrado a outros sistemas, como sistemas de pagamento online, por meio de APIs (Application Programming Interface). Essa integração possibilita a automação de processos e a troca de informações entre diferentes sistemas, aumentando a eficiência operacional da feira.
-
-
 1. **Ambiente do Evento:**  
-   O sistema será utilizado diretamente no evento, pelos expositores, com acesso por dispositivos móveis para organizar as atividades.  
+   O sistema será utilizado diretamente no evento, pelos expositores e participantes, com acesso por dispositivos móveis para organizar as atividades.  
 
 2. **Ambiente Administrativo:**  
    Os organizadores poderão acessar o sistema por meio de seus computadores para gerenciar todos os dados relacionados à feira.  
@@ -157,6 +154,12 @@ O uso do **SGFPO** deve atender a diferentes necessidades relacionadas ao ambien
 
 ## Visão Geral do Produto
 
+O Sistema de Gestão da Feira de Produtos Orgânicos (SGFPO) é um sistema de gerenciamento de vendas e controle de estoque de produtos em uma feira. Ele permite que os feirantes consigam ter maior facilidade em controlar o fluxo de caixa e estoque das mercadorias, já que concede acesso a todo o histórico de vendas, facilidade nas transações, além de controlar todo o estoque dos produtos apresentados como mercadoria.
+
+Uma estrutura operacional do produto é apresentada na figura abaixo.
+
+<img src="arquitetura_visao_hortaifpb.jpeg" alt="estrutura operacioanl SGFPO" />
+
 ### Custo e Venda
 
 O sistema será fornecido à instituição como uma solução única, podendo ser adaptado para futuras edições da feira.
@@ -172,7 +175,6 @@ O SGFPO será licenciado para uso por evento, com instalação local ou em nuvem
 - **Relatórios Financeiros:** Geração automática de dados de desempenho.
 - **Agenda de Programação:** Organização dos eventos dentro da feira.
 - **Gestão de Participantes:** Controle do fluxo de visitantes.
-
 ---
 
 ### Restrições
