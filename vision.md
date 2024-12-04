@@ -122,11 +122,20 @@ O **SGFPO** oferece:
 
 ### Ambiente de Uso
 
+O SGFPO é um software que opera sobre uma infraestrutura de TI, dispensando a necessidade de equipamentos especializados. Para seu funcionamento, requer servidores, um banco de dados eficiente e dispositivos de rede, como roteadores e switches, que garantem a conectividade e o processamento de dados em tempo real.
+
+Os usuários podem acessar o SGFPO por meio de navegadores web em dispositivos como computadores, laptops, tablets e smartphones, o que possibilita o gerenciamento remoto e flexível da feira, a qualquer momento e em qualquer lugar.
+
+A interação com o SGFPO ocorre via conexão de rede, geralmente pela Internet. O servidor que hospeda o sistema processa solicitações HTTP recebidas dos dispositivos dos usuários e retorna as informações necessárias, permitindo o gerenciamento completo de expositores, participantes e vendas.
+
+o SGFPO pode ser integrado a outros sistemas, como sistemas de pagamento online, por meio de APIs (Application Programming Interface). Essa integração possibilita a automação de processos e a troca de informações entre diferentes sistemas, aumentando a eficiência operacional da feira.
+
+
 1. **Ambiente do Evento:**  
-   O sistema será utilizado diretamente no evento, com acesso por dispositivos móveis e computadores para organizar as atividades.  
+   O sistema será utilizado diretamente no evento, pelos expositores, com acesso por dispositivos móveis para organizar as atividades.  
 
 2. **Ambiente Administrativo:**  
-   Os organizadores poderão acessar o sistema de seus dispositivos para gerenciar todos os dados relacionados à feira.  
+   Os organizadores poderão acessar o sistema por meio de seus computadores para gerenciar todos os dados relacionados à feira.  
 
 ---
 
