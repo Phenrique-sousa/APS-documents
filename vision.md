@@ -105,8 +105,7 @@ O **SGFPO** oferece:
 | Instituição de Ensino  | Responsável pela organização da feira.            | Organizador principal    |
 | Expositores            | Vendedores dos produtos orgânicos.                | Usuários do sistema      |
 | Participantes          | Visitantes da feira.                              | Usuários indiretos       |
-| Equipe de Desenvolvimento | Desenvolvedores responsáveis pelo sistema.       | Desenvolvedores          |
-| Equipe de Suporte      | Fornece suporte técnico e treinamento.            | Suporte ao cliente       |
+
 
 ### Usuários e Atores
 
