@@ -89,9 +89,9 @@ O **SGFPO** oferece:
 
 | Benefício                       | Problema Resolvido                                   | Afetados                    |
 |---------------------------------|-----------------------------------------------------|-----------------------------|
-| Aumento da eficiência administrativa | Controle manual que gera erros e consome tempo.     | Organizadores               |
+| Aumento da eficiência administrativa | Controle manual que gera erros e consome tempo.     | Organizadores e Expositores   |
 | Agilidade na comunicação         | Falta de centralização de informações.              | Organizadores e Expositores |
-| Relatórios detalhados            | Ausência de dados em tempo real para análise.       | Organizadores               |
+| Relatórios detalhados            | Ausência de dados em tempo real para análise.       | Organizadores e Expositores   |
 | Facilidade de cadastro           | Inscrição prática para expositores.                 | Expositores                 |
 
 ---
