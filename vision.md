@@ -103,9 +103,10 @@ O **SGFPO** oferece:
 
 | Stakeholder            | Descrição                                           | Papel                     |
 |------------------------|---------------------------------------------------|--------------------------|
-| Instituição de Ensino  | Responsável pela organização da feira.            | Organizador principal    |
+| Instituição de Ensino  | Responsável pela organização da feira.            | Usuários do sistema     |
 | Expositores            | Vendedores dos produtos orgânicos.                | Usuários do sistema      |
-| Participantes          | Visitantes da feira.                              | Usuários indiretos       |
+| Participantes          | Visitantes da feira.                              | Usuários do sistema       |
+| Equipe de Desenvolvimento |Profissionais responsáveis por desenvolver e manter o sistema.| Desenvolvedores|
 
 
 ### Usuários e Atores
@@ -115,6 +116,7 @@ O **SGFPO** oferece:
 | **Expositores** | Vendedores de produtos orgânicos.         | Cadastro de produtos e vendas.      | Expositores        |
 | **Organizadores** | Responsáveis pela organização da feira.  | Gestão de inscrições e relatórios.  | Instituição        |
 | **Participantes** | Visitantes da feira.                    | Realizar compras.                   | Instituição e Expositores     |
+
 
 ---
 
