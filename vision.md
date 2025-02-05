@@ -3,7 +3,7 @@
 ## Visão do Produto
 
 **Sistema de Gestão da Feira de Produtos Orgânicos (SGFPO)**  
-<small>Versão 1.0</small>
+<small>Versão 1.1</small>
 
 ---
 
