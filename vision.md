@@ -12,6 +12,7 @@
 | Data       | Versão | Descrição           | Autor              |
 |------------|--------|---------------------|--------------------|
 | 03/12/2024 | 0.1.0  | Criação do documento | Horta IFPB  |
+| 05/02/2024 | 0.1.1  | Edição das funcionalidades e restrições | Horta IFPB  |
 
 ---
 
@@ -113,7 +114,7 @@ O **SGFPO** oferece:
 |---------------|-------------------------------------------|-------------------------------------|--------------------|
 | **Expositores** | Vendedores de produtos orgânicos.         | Cadastro de produtos e vendas.      | Expositores        |
 | **Organizadores** | Responsáveis pela organização da feira.  | Gestão de inscrições e relatórios.  | Instituição        |
-| **Participantes** | Visitantes da feira.                    | Realizar compras.                   | Instituição        |
+| **Participantes** | Visitantes da feira.                    | Realizar compras.                   | Instituição e Expositores     |
 
 ---
 
@@ -169,18 +170,65 @@ O SGFPO será licenciado para uso por evento, com instalação local ou em nuvem
 
 ### Características e Funcionalidades de Alto Nível
 
-- **Cadastro de Expositores e Produtos:** Registro rápido e intuitivo.
-- **Controle de Vendas:** Gerenciamento de transações.
-- **Relatórios Financeiros:** Geração automática de dados de desempenho.
-- **Agenda de Programação:** Organização dos eventos dentro da feira.
-- **Gestão de Participantes:** Controle do fluxo de visitantes.
----
+#### Objetivos Principais:
 
-### Restrições
+- **Facilitar o cadastro e gerenciamento de expositores**.
+- **Otimizar o controle de vendas e o gerenciamento de estoque**.
+- **Promover uma experiência de compra eficiente para os participantes**.
+- **Oferecer suporte à organização da feira com relatórios e métricas de desempenho**.
+- **Garantir a operação do sistema mesmo em ambientes com conectividade limitada (modo offline)**.
 
-- **Acessibilidade:** Deve ser intuitivo para todos os usuários.
-- **Desempenho:** Rapidez na atualização de dados durante o evento.
-- **Segurança:** Proteção de informações financeiras e pessoais.
+#### Funcionalidades de Alto Nível
+
+1. **Autenticação e Segurança:**
+   - Login com e-mail/senha ou certificado digital.
+   - Recuperação de senha via e-mail.
+
+2. **Gerenciamento de Expositores:**
+   - Cadastro e atualização de informações de perfil.
+   - Gerenciamento de produtos (adicionar, editar, excluir).
+   - Registro de vendas e acompanhamento em tempo real.
+   - Painel de métricas de desempenho de vendas.
+
+3. **Funcionalidades para Participantes:**
+   - Compras sem necessidade de login.
+   - Avaliação de produtos (estrelas, comentários e fotos).
+   - Lista de desejos e favoritos.
+   - Histórico de compras detalhado.
+   - Comunicação assíncrona com expositores.
+   - Personalização da interface (modo claro/escuro).
+
+4. **Gestão da Feira:**
+   - Relatórios de fluxo de participantes e horários de pico.
+   - Notificações sobre promoções e descontos.
+   - Suporte técnico para expositores e participantes.
+
+5. **Operação Offline:**
+   - Operação funcional mesmo sem conexão com a internet.
+   - Sincronização automática de dados quando a conexão for restabelecida.
+
+### Restrições do Sistema
+
+1. **Disponibilidade:**
+   - O sistema deve estar disponível 24/7 para todos os usuários.
+
+2. **Privacidade e Segurança:**
+   - Implementação de autenticação segura e criptografia de dados.
+   - Conformidade com a Lei Geral de Proteção de Dados (LGPD).
+
+3. **Usabilidade:**
+   - Interface intuitiva e acessível, dispensando treinamento extensivo.
+   - Exibição clara de informações em gráficos e relatórios.
+
+4. **Compatibilidade:**
+   - Suporte aos principais navegadores (Chrome, Firefox, Edge, Safari) e dispositivos móveis (Android e iOS).
+
+5. **Interoperabilidade:**
+   - Integração com serviços de pagamento (cartão de crédito/débito, Pix, carteiras digitais).
+
+6. **Manutenção e Suporte:**
+   - Escalabilidade para novos recursos e aumento de capacidade.
+   - Atualizações transparentes para os usuários, com mínimo impacto no serviço.
 
 ---
 
