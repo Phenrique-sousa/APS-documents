@@ -1,22 +1,20 @@
 import os
 import subprocess
 
-# Caminho para a pasta raiz
-root_dir = os.getcwd()  # Altere para o caminho desejado
-plantuml_jar = 'plantuml-1.2022.12.jar'  # Certifique-se de que o JAR está no mesmo diretório ou forneça o caminho correto
+# Caminho absoluto do arquivo JAR (corrigido)
+plantuml_jar = r"C:\Users\pedro\Downloads\pweb1\APS-documents\util\plantuml-1.2022.12.jar"
+
+# Caminho da pasta raiz onde os arquivos .puml estão
+root_dir = os.getcwd()
 
 # Função para converter arquivos .puml em .svg
 def convert_puml_to_svg(file_path):
-    output_file = file_path.replace('.puml', '.svg')
-    command = ['java', '-jar', plantuml_jar, '-tsvg', '-pipe']
+    command = ['java', '-jar', plantuml_jar, '-tsvg', file_path]
     
-    with open(file_path, 'rb') as puml_file:
-        result = subprocess.run(command, stdin=puml_file, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     if result.returncode == 0:
-        with open(output_file, 'wb') as svg_file:
-            svg_file.write(result.stdout)
-        print(f'Convertido: {file_path} -> {output_file}')
+        print(f'Convertido: {file_path}')
     else:
         print(f'Erro ao converter {file_path}: {result.stderr.decode()}')
 
