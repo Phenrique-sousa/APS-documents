@@ -14,21 +14,13 @@ Organizador --|> Usuario
 
 
 ' Pacotes de casos de uso
-package "Autenticação e acesso" {
+package "SGFPO" {
     Usuario -- (Acessar sistema)
     (Recuperar senha)<.. (Acessar sistema) : <<extends>>
      Participante  -- (Acesso sem login)
-
-}
-
-package "Gerenciamento de perfil e informações" {
   Expositor -- (Gerenciar perfil expositor) 
   Expositor -- (Gerenciar produtos)
   Expositor -- (Notificar estoque) 
-  
-}
-
-package "Transações e vendas" { 
   Expositor -- (Visualizar registro das vendas) 
   (Visualizar registro das vendas) <..(Registrar vendas manualmente): <<extends>>
   Expositor -- (Registrar vendas manualmente) 
@@ -36,37 +28,16 @@ package "Transações e vendas" {
   Expositor -- (Notificar vendas on-line)  
   Participante -- (Visualizar histórico de compras)
   Participante -- (Filtrar produtos)
-}
-
-package "Comunicação e interação" {
  Participante -- (Enviar mensagem ao expositor)
  Participante -- (Suporte técnico ao participante)
  Expositor -- (Suporte técnico ao expositor)
-}
-
-package "Experiência do usuário" {
  Participante -- (Adicionar à lista de desejos)
  Usuario -- (Personalizar aparência da plataforma)
-}
-
-package "Avaliações e feedback" {
  Participante -- (Avaliar compra)
 (Visualizar histórico de compras)  <..(Avaliar compra): <<includes>>
-}
-
-package "Promoções e engajamento" {
    Expositor -- (Oferecer descontos)
    Participante -- (Notificar descontos)
-}
-
-package "Operações offline e sincronização" {
   Expositor -- (Realizar operações offline)
-   
-}
-
-package "Relatórios e gestão do evento" {
   Organizador -- (Visualizar relatórios)
-
 }
-
 @enduml
