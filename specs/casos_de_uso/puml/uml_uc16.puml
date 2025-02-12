@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+
+actor "Usuario" as Usuario
+
+usecase "Personalizar aparência da plataforma" as UC2
+
+Usuario -- UC2
+
+@enduml

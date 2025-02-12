@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="88px" preserveAspectRatio="none" style="width:283px;height:88px;background:#FFFFFF;" version="1.1" viewBox="0 0 283 88" width="283px" zoomAndPan="magnify"><defs/><g><!--MD5=[128f0757cf0ea77f14e95a88885fd9f7]
+entity Usuario--><g id="elem_Usuario"><ellipse cx="35" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M35,22 L35,49 M22,30 L48,30 M35,49 L22,64 M35,49 L48,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="6" y="80.0332">Expositor</text></g><g id="elem_UC2"><ellipse cx="200.7363" cy="44.7473" fill="#F1F1F1" rx="76.7363" ry="17.7473" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="145.2006" y="49.1555">Notificar estoque</text></g><!--MD5=[a79f49966e18d505242c6265dffaeae2]
+link Usuario to UC2--><g id="link_Usuario_UC2"><path d="M64.11,44.5 C80.72,44.5 102.64,44.5 123.98,44.5 " fill="none" id="Usuario-UC2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dce5137515127f593add3b6cfbcd7eca]
+@startuml
+left to right direction
+
+actor "Expositor" as Usuario
+
+usecase "Notificar estoque" as UC2
+
+Usuario - - UC2
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 15:12:26 BRT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>

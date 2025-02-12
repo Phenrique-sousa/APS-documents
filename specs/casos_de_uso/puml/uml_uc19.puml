@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+
+actor "Expositor" as Usuario
+
+usecase "Notificar descontos" as UC2
+
+Usuario -- UC2
+
+@enduml

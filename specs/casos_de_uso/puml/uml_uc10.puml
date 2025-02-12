@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+
+actor "Participante" as Usuario
+
+usecase "Visualizar histórico de compras" as UC2
+
+Usuario -- UC2
+
+@enduml

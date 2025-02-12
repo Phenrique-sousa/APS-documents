@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+
+actor "Participante" as Usuario
+
+usecase "Enviar mensagem ao Expositor" as UC2
+
+Usuario -- UC2
+
+@enduml
