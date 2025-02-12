@@ -3,8 +3,10 @@ left to right direction
 
 actor "Expositor" as Usuario
 
-usecase "Registrar vendas" as UC2
+usecase "Registrar as vendas manualmente" as UC1
+usecase "Visualizar o registro das vendas" as UC2
 
-Usuario -- UC2
+Usuario -- UC1
 
+UC2 <.. UC1 : <<includes>>
 @enduml

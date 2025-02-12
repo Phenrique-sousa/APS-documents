@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1773px" preserveAspectRatio="none" style="width:824px;height:1773px;background:#FFFFFF;" version="1.1" viewBox="0 0 824 1773" width="824px" zoomAndPan="magnify"><defs/><g><!--MD5=[96d0e7a122fbc9804fd001ef2f976e9e]
+cluster Autenticação e acesso--><g id="cluster_Autenticação e acesso"><rect fill="none" height="159" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="578" x="181" y="1334"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="158" x="391" y="1350.5332">Autenticação e acesso</text></g><!--MD5=[bbd2ec15fee1765b1006c20013ea72c1]
+cluster Gerenciamento de perfil e informações--><g id="cluster_Gerenciamento de perfil e informações"><rect fill="none" height="240" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="291" x="130.5" y="176"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="275" x="138.5" y="192.5332">Gerenciamento de perfil e informações</text></g><!--MD5=[edcd7a56e75bf5402bd246fb5b692403]
+cluster Transações e vendas--><g id="cluster_Transações e vendas"><rect fill="none" height="337" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="656" x="144" y="440"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="150" x="397" y="456.5332">Transações e vendas</text></g><!--MD5=[2a89febb17bae9f0d8f091676ee81eb7]
+cluster Comunicação e interação--><g id="cluster_Comunicação e interação"><rect fill="none" height="273" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="265" x="143" y="990"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="177" x="187" y="1006.5332">Comunicação e interação</text></g><!--MD5=[493e2881fe62490e33a7eea10db9226c]
+cluster Experiência do usuário--><g id="cluster_Experiência do usuário"><rect fill="none" height="194" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="301" x="517" y="1517"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="162" x="586.5" y="1533.5332">Experiência do usuário</text></g><!--MD5=[5e1ba9738e7f5bd1b0f77db41c1670c8]
+cluster Avaliações e feedback--><g id="cluster_Avaliações e feedback"><rect fill="none" height="86" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="177" x="579" y="1080"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="158" x="588.5" y="1096.5332">Avaliações e feedback</text></g><!--MD5=[cad0ddac3965535a2a56876893921c81]
+cluster Promoções e engajamento--><g id="cluster_Promoções e engajamento"><rect fill="none" height="165" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="203" x="174" y="801"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="187" x="182" y="817.5332">Promoções e engajamento</text></g><!--MD5=[2676daedf3034e8b565a9fa0ab134a24]
+cluster Operações offline e sincronização--><g id="cluster_Operações offline e sincronização"><rect fill="none" height="98" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="256" x="148" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="240" x="156" y="23.5332">Operações offline e sincronização</text></g><!--MD5=[695c67ecd56d0fa3d44287680a4c945f]
+cluster Relatórios e gestão do evento--><g id="cluster_Relatórios e gestão do evento"><rect fill="none" height="90" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="229" x="161" y="1677"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="213" x="169" y="1693.5332">Relatórios e gestão do evento</text></g><g id="elem_Acessar sistema"><ellipse cx="667.6002" cy="1437.02" fill="#F1F1F1" rx="75.6002" ry="17.52" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="613.1002" y="1441.5366">Acessar sistema</text></g><g id="elem_Recuperar senha"><ellipse cx="275.2877" cy="1388.0575" fill="#F1F1F1" rx="78.2877" ry="18.0575" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="218.5149" y="1392.2774">Recuperar senha</text></g><g id="elem_Acesso sem login"><ellipse cx="275.2877" cy="1459.0575" fill="#F1F1F1" rx="78.2877" ry="18.0575" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="218.5149" y="1463.2774">Acesso sem login</text></g><g id="elem_Gerenciar perfil expositor"><ellipse cx="275.6681" cy="234.2336" fill="#F1F1F1" rx="99.1681" ry="22.2336" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="196.1681" y="237.9621">Gerenciar perfil expositor</text></g><g id="elem_Gerenciar produtos"><ellipse cx="275.5873" cy="310.1175" fill="#F1F1F1" rx="83.5873" ry="19.1175" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="214.0873" y="313.846">Gerenciar produtos</text></g><g id="elem_Notificar estoque"><ellipse cx="275.7363" cy="382.2473" fill="#F1F1F1" rx="76.7363" ry="17.7473" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="220.2006" y="386.6555">Notificar estoque</text></g><g id="elem_Visualizar registro das vendas"><ellipse cx="275.7192" cy="500.9438" fill="#F1F1F1" rx="112.7192" ry="24.9438" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189" x="181.2192" y="504.6724">Visualizar registro das vendas</text></g><g id="elem_Registrar vendas manualmente"><ellipse cx="667.3945" cy="502.1789" fill="#F1F1F1" rx="116.3945" ry="25.6789" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="568.8945" y="505.9074">Registrar vendas manualmente</text></g><g id="elem_Notificar vendas on-line"><ellipse cx="275.313" cy="582.7626" fill="#F1F1F1" rx="94.313" ry="21.2626" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="201.313" y="586.4911">Notificar vendas on-line</text></g><g id="elem_Visualizar histórico de compras"><ellipse cx="275.4736" cy="734.9947" fill="#F1F1F1" rx="115.4736" ry="25.4947" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="177.9736" y="738.7232">Visualizar histórico de compras</text></g><g id="elem_Filtrar produtos"><ellipse cx="275.376" cy="657.0752" fill="#F1F1F1" rx="73.376" ry="17.0752" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="223.876" y="661.5918">Filtrar produtos</text></g><g id="elem_Enviar mensagem ao expositor"><ellipse cx="275.5137" cy="1220.9027" fill="#F1F1F1" rx="115.0137" ry="25.4027" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="178.5137" y="1224.6313">Enviar mensagem ao expositor</text></g><g id="elem_Suporte técnico ao participante"><ellipse cx="275.3945" cy="1135.1789" fill="#F1F1F1" rx="116.3945" ry="25.6789" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="176.8945" y="1138.9074">Suporte técnico ao participante</text></g><g id="elem_Suporte técnico ao expositor"><ellipse cx="275.6128" cy="1050.1226" fill="#F1F1F1" rx="108.6128" ry="24.1226" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="185.6128" y="1053.8511">Suporte técnico ao expositor</text></g><g id="elem_Adicionar à lista de desejos"><ellipse cx="667.4418" cy="1670.9884" fill="#F1F1F1" rx="105.4418" ry="23.4884" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="580.9418" y="1674.7169">Adicionar à lista de desejos</text></g><g id="elem_Personalizar aparência da plataforma"><ellipse cx="667.5829" cy="1582.8166" fill="#F1F1F1" rx="134.5829" ry="29.3166" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="236" x="549.5829" y="1586.5451">Personalizar aparência da plataforma</text></g><g id="elem_Avaliar compra"><ellipse cx="667.2859" cy="1132.8572" fill="#F1F1F1" rx="72.2859" ry="16.8572" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="617.2859" y="1137.3738">Avaliar compra</text></g><g id="elem_Oferecer descontos"><ellipse cx="275.4267" cy="856.7853" fill="#F1F1F1" rx="84.4267" ry="19.2853" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="212.9267" y="860.5139">Oferecer descontos</text></g><g id="elem_Notificar descontos"><ellipse cx="275.3351" cy="930.867" fill="#F1F1F1" rx="82.3351" ry="18.867" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="215.3351" y="934.5955">Notificar descontos</text></g><g id="elem_Realizar operações offline"><ellipse cx="275.3975" cy="66.1795" fill="#F1F1F1" rx="101.3975" ry="22.6795" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="193.3975" y="69.908">Realizar operações offline</text></g><g id="elem_Visualizar relatórios"><ellipse cx="275.5873" cy="1732.1175" fill="#F1F1F1" rx="83.5873" ry="19.1175" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="214.0873" y="1735.846">Visualizar relatórios</text></g><!--MD5=[128f0757cf0ea77f14e95a88885fd9f7]
+entity Usuario--><g id="elem_Usuario"><ellipse cx="275.5" cy="1520.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M275.5,1528.5 L275.5,1555.5 M262.5,1536.5 L288.5,1536.5 M275.5,1555.5 L262.5,1570.5 M275.5,1555.5 L288.5,1570.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="227" y="1586.5332">Usuário comum</text></g><!--MD5=[0e07ace55da6feeb15fadfa92f806ed7]
+entity Expositor--><g id="elem_Expositor"><ellipse cx="45" cy="411.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M45,419.5 L45,446.5 M32,427.5 L58,427.5 M45,446.5 L32,461.5 M45,446.5 L58,461.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="16" y="477.5332">Expositor</text></g><!--MD5=[26f19a92cbc8a9be75502bfce1735486]
+entity Participante--><g id="elem_Participante"><ellipse cx="45" cy="1190.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M45,1198.5 L45,1225.5 M32,1206.5 L58,1206.5 M45,1225.5 L32,1240.5 M45,1225.5 L58,1240.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="7.5" y="1256.5332">Participante</text></g><!--MD5=[0c55bab172805cca2008645a19f76a7f]
+entity Organizador--><g id="elem_Organizador"><ellipse cx="45" cy="1677.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M45,1685.5 L45,1712.5 M32,1693.5 L58,1693.5 M45,1712.5 L32,1727.5 M45,1712.5 L58,1727.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="6" y="1743.5332">Organizador</text></g><!--MD5=[efe28e98b8471257eccbed0591f050c4]
+link Expositor to Usuario--><g id="link_Expositor_Usuario"><path d="M48.27,481.06 C59.26,669.03 107.08,1472.26 122.5,1493 C142.48,1519.86 176.55,1534.29 207.37,1542.03 " fill="none" id="Expositor-to-Usuario" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="208.88,1535.19,226.98,1546.21,205.95,1548.88,208.88,1535.19" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cf7750ced67fe71aad9aae3f4cbb24b8]
+link Participante to Usuario--><g id="link_Participante_Usuario"><path d="M46.43,1260.48 C49.17,1318.62 62.62,1427.45 122.5,1493 C144.4,1516.98 177.29,1531.11 206.87,1539.42 " fill="none" id="Participante-to-Usuario" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="208.91,1532.71,226.66,1544.28,205.56,1546.3,208.91,1532.71" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d0a2a2d510c0943fcf0f8bdbc00ccf34]
+link Organizador to Usuario--><g id="link_Organizador_Usuario"><path d="M84.25,1681.72 C118.49,1658.2 169.39,1623.22 209.93,1595.36 " fill="none" id="Organizador-to-Usuario" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="206.15,1589.47,226.59,1583.92,214.07,1601.01,206.15,1589.47" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4663ee31c4931adde6e17cd701874563]
+link Usuario to Acessar sistema--><g id="link_Usuario_Acessar sistema"><path d="M324.32,1537.02 C399.68,1514.99 545.16,1472.47 619.81,1450.65 " fill="none" id="Usuario-Acessar sistema" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[18a32525852073d2988f2f042b8ff93b]
+reverse link Recuperar senha to Acessar sistema--><g id="link_Recuperar senha_Acessar sistema"><path d="M350.01,1397.24 C422.23,1406.31 531.4,1420.03 600.8,1428.75 " fill="none" id="Recuperar senha-backto-Acessar sistema" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="344.88,1396.59,353.3053,1401.6904,349.8403,1397.219,354.3117,1393.7539,344.88,1396.59" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="439" y="1406.4951">«extends»</text></g><!--MD5=[41092da2e945cfd17546ad7b87edec89]
+link Participante to Acesso sem login--><g id="link_Participante_Acesso sem login"><path d="M49.94,1260.24 C56.69,1306.1 74.74,1381.06 122.5,1423 C143.28,1441.25 171.64,1450.68 198.23,1455.41 " fill="none" id="Participante-Acesso sem login" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3f1af80ec76b8bda53c09dfda3a2198b]
+link Expositor to Gerenciar perfil expositor--><g id="link_Expositor_Gerenciar perfil expositor"><path d="M53.47,402.87 C62.89,364.23 82.91,306.24 122.5,273 C140.13,258.2 162.68,248.92 184.99,243.13 " fill="none" id="Expositor-Gerenciar perfil expositor" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8694ef5bf6508ba65801c18fdae3670a]
+link Expositor to Gerenciar produtos--><g id="link_Expositor_Gerenciar produtos"><path d="M69.01,402.55 C82.3,383.07 100.69,360.85 122.5,347 C145.54,332.37 173.92,323.52 199.89,318.17 " fill="none" id="Expositor-Gerenciar produtos" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[93126d341120b056d0919fb22891589f]
+link Expositor to Notificar estoque--><g id="link_Expositor_Notificar estoque"><path d="M74.02,434.64 C111.44,424.82 178.36,407.24 224.53,395.12 " fill="none" id="Expositor-Notificar estoque" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f572dc19954b0f81970583200ebb6c44]
+link Expositor to Visualizar registro das vendas--><g id="link_Expositor_Visualizar registro das vendas"><path d="M74.02,449.23 C105.48,457.36 157.8,470.87 201.1,482.05 " fill="none" id="Expositor-Visualizar registro das vendas" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0a1698f8b458862ec0c737592c29ea2d]
+reverse link Visualizar registro das vendas to Registrar vendas manualmente--><g id="link_Visualizar registro das vendas_Registrar vendas manualmente"><path d="M375.61,515.88 C394.95,522.2 414.01,531.2 429.5,544 C435.25,548.75 430.66,555.08 437,559 C461.2,573.95 472.95,563.7 501,559 C540.26,552.43 582.68,537.66 614.74,524.8 " fill="none" id="Visualizar registro das vendas-backto-Registrar vendas manualmente" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="370.68,514.33,378.0661,520.845,375.4499,515.8295,380.4653,513.2132,370.68,514.33" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="439" y="555.4951">«extends»</text></g><!--MD5=[0a1698f8b458862ec0c737592c29ea2d]
+reverse link Visualizar registro das vendas to Registrar vendas manualmente--><g id="link_Visualizar registro das vendas_Registrar vendas manualmente"><path d="M393.11,501.3 C442.99,501.43 501.07,501.58 550.85,501.7 " fill="none" id="Visualizar registro das vendas-backto-Registrar vendas manualmente-1" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="388,501.29,396.9885,505.3157,393,501.3043,397.0114,497.3157,388,501.29" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="62" x="438" y="498.4951">«includes»</text></g><!--MD5=[fdde8de7fd262e0a94cc01ff35f19a88]
+link Expositor to Registrar vendas manualmente--><g id="link_Expositor_Registrar vendas manualmente"><path d="M52.43,402.92 C63.66,339.99 88.91,220.73 122.5,196 C232.38,115.1 306.99,135.93 429.5,196 C552.28,256.2 629.62,414.05 656.18,476.27 " fill="none" id="Expositor-Registrar vendas manualmente" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1b68b8a2773ecce611a6542686375269]
+link Expositor to Notificar vendas on-line--><g id="link_Expositor_Notificar vendas on-line"><path d="M66.86,481 C80.13,502.28 99.19,527.4 122.5,543 C143.59,557.12 169.41,566.26 193.75,572.17 " fill="none" id="Expositor-Notificar vendas on-line" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[38daed9a5879980867ab8e0b3ffa0870]
+link Participante to Visualizar histórico de compras--><g id="link_Participante_Visualizar histórico de compras"><path d="M49.31,1181.87 C57.48,1092.93 81.02,878.8 122.5,821 C144.07,790.95 179.6,770.01 210.89,756.32 " fill="none" id="Participante-Visualizar histórico de compras" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ed00a9310141be96bbe72028b1c4d937]
+link Participante to Filtrar produtos--><g id="link_Participante_Filtrar produtos"><path d="M46.14,1181.66 C47.37,1071.52 56.75,763.43 122.5,692 C142.58,670.18 173.29,660.63 201.87,656.83 " fill="none" id="Participante-Filtrar produtos" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[52c9723d1985ccadcc036c280d35e10f]
+link Participante to Enviar mensagem ao expositor--><g id="link_Participante_Enviar mensagem ao expositor"><path d="M82.71,1221 C104.03,1221 132.17,1221 160.31,1221 " fill="none" id="Participante-Enviar mensagem ao expositor" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0d62b4d7f793e2bfa766588472e69daa]
+link Participante to Suporte técnico ao participante--><g id="link_Participante_Suporte técnico ao participante"><path d="M82.86,1197.96 C95.15,1190.91 109.13,1183.55 122.5,1178 C145.55,1168.42 171.41,1160.22 195.19,1153.63 " fill="none" id="Participante-Suporte técnico ao participante" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ff9e300c74e6c19ee55e14d234ad4514]
+link Expositor to Suporte técnico ao expositor--><g id="link_Expositor_Suporte técnico ao expositor"><path d="M47.29,481.29 C51.51,589.17 67.95,887.19 122.5,966 C143.78,996.74 180.1,1017.41 211.91,1030.55 " fill="none" id="Expositor-Suporte técnico ao expositor" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b5cad0a607058392e1d45bb9ee45c4f2]
+link Participante to Adicionar à lista de desejos--><g id="link_Participante_Adicionar à lista de desejos"><path d="M48.07,1260.01 C53.63,1348.49 72.02,1560.34 122.5,1607 C184.52,1664.33 422.37,1672.91 562.19,1672.8 " fill="none" id="Participante-Adicionar à lista de desejos" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a5c34cc25b614b974960623719088729]
+link Usuario to Personalizar aparência da plataforma--><g id="link_Usuario_Personalizar aparência da plataforma"><path d="M324.32,1554.92 C378.02,1559.33 467.32,1566.66 541.22,1572.72 " fill="none" id="Usuario-Personalizar aparência da plataforma" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[bec655fafbd402f76638d366800ab0c4]
+link Participante to Avaliar compra--><g id="link_Participante_Avaliar compra"><path d="M82.56,1245.92 C94.73,1252.86 108.7,1259.46 122.5,1263 C254.67,1296.9 297.33,1296.87 429.5,1263 C516.56,1240.69 605.99,1179.01 645.53,1149.35 " fill="none" id="Participante-Avaliar compra" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[406029ca23a2a892cdfea9bd70920401]
+reverse link Visualizar histórico de compras to Avaliar compra--><g id="link_Visualizar histórico de compras_Avaliar compra"><path d="M333.61,760.09 C364.02,775.11 400.93,796.11 429.5,821 C537.47,915.05 628.12,1065.38 656.93,1115.85 " fill="none" id="Visualizar histórico de compras-backto-Avaliar compra" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="328.78,757.74,335.1185,765.2781,333.2748,759.9301,338.6228,758.0864,328.78,757.74" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="62" x="438" y="824.4951">«includes»</text></g><!--MD5=[65ad85113a1e8afda61780253cb1ee6c]
+link Expositor to Oferecer descontos--><g id="link_Expositor_Oferecer descontos"><path d="M50.8,481.24 C61.02,559.34 86.91,730.71 122.5,777 C147.13,809.03 188.27,829.57 221.54,841.8 " fill="none" id="Expositor-Oferecer descontos" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[52134e5efc1ff11155bcc2942b47d737]
+link Participante to Notificar descontos--><g id="link_Participante_Notificar descontos"><path d="M51.46,1181.61 C59.66,1135.61 79.1,1059.52 122.5,1010 C149.65,979.02 191.91,958.44 224.99,946.07 " fill="none" id="Participante-Notificar descontos" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9706fa6b0415dcdbc42decd75af62943]
+link Expositor to Realizar operações offline--><g id="link_Expositor_Realizar operações offline"><path d="M49.23,402.99 C56.39,325.9 76.01,157.84 114,116 C132.44,95.69 158.98,83.55 185.18,76.33 " fill="none" id="Expositor-Realizar operações offline" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dcb453359a675e101a6cb56764bf9bc3]
+link Organizador to Visualizar relatórios--><g id="link_Organizador_Visualizar relatórios"><path d="M84.25,1712.02 C115.5,1715.3 160.64,1720.04 199.11,1724.08 " fill="none" id="Organizador-Visualizar relatórios" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d7530d1a7a36f84c21acf788739e5a69]
+@startuml
+left to right direction
+skinparam packageStyle rect
+
+' Definição dos atores e hierarquia
+actor "Usuário comum" as Usuario
+actor "Expositor" as Expositor
+actor "Participante" as Participante
+actor "Organizador" as Organizador
+
+Expositor - -|> Usuario
+Participante - -|> Usuario
+Organizador - -|> Usuario
+
+
+' Pacotes de casos de uso
+package "Autenticação e acesso" {
+    Usuario - - (Acessar sistema)
+    (Recuperar senha)<.. (Acessar sistema) : <<extends>>
+     Participante  - - (Acesso sem login)
+
+}
+
+package "Gerenciamento de perfil e informações" {
+  Expositor - - (Gerenciar perfil expositor) 
+  Expositor - - (Gerenciar produtos)
+  Expositor - - (Notificar estoque) 
+  
+}
+
+package "Transações e vendas" { 
+  Expositor - - (Visualizar registro das vendas) 
+  (Visualizar registro das vendas) <..(Registrar vendas manualmente): <<extends>>
+  Expositor - - (Registrar vendas manualmente) 
+  (Visualizar registro das vendas)  <..(Registrar vendas manualmente): <<includes>>
+  Expositor - - (Notificar vendas on-line)  
+  Participante - - (Visualizar histórico de compras)
+  Participante - - (Filtrar produtos)
+}
+
+package "Comunicação e interação" {
+ Participante - - (Enviar mensagem ao expositor)
+ Participante - - (Suporte técnico ao participante)
+ Expositor - - (Suporte técnico ao expositor)
+}
+
+package "Experiência do usuário" {
+ Participante - - (Adicionar à lista de desejos)
+ Usuario - - (Personalizar aparência da plataforma)
+}
+
+package "Avaliações e feedback" {
+ Participante - - (Avaliar compra)
+(Visualizar histórico de compras)  <..(Avaliar compra): <<includes>>
+}
+
+package "Promoções e engajamento" {
+   Expositor - - (Oferecer descontos)
+   Participante - - (Notificar descontos)
+}
+
+package "Operações offline e sincronização" {
+  Expositor - - (Realizar operações offline)
+   
+}
+
+package "Relatórios e gestão do evento" {
+  Organizador - - (Visualizar relatórios)
+
+}
+
+@enduml
+
+@startuml
+left to right direction
+skinparam packageStyle rect
+
+actor "Usuário comum" as Usuario
+actor "Expositor" as Expositor
+actor "Participante" as Participante
+actor "Organizador" as Organizador
+
+Expositor - -|> Usuario
+Participante - -|> Usuario
+Organizador - -|> Usuario
+
+
+package "Autenticação e acesso" {
+    Usuario - - (Acessar sistema)
+    (Recuperar senha)<.. (Acessar sistema) : <<extends>>
+     Participante  - - (Acesso sem login)
+
+}
+
+package "Gerenciamento de perfil e informações" {
+  Expositor - - (Gerenciar perfil expositor) 
+  Expositor - - (Gerenciar produtos)
+  Expositor - - (Notificar estoque) 
+  
+}
+
+package "Transações e vendas" { 
+  Expositor - - (Visualizar registro das vendas) 
+  (Visualizar registro das vendas) <..(Registrar vendas manualmente): <<extends>>
+  Expositor - - (Registrar vendas manualmente) 
+  (Visualizar registro das vendas)  <..(Registrar vendas manualmente): <<includes>>
+  Expositor - - (Notificar vendas on-line)  
+  Participante - - (Visualizar histórico de compras)
+  Participante - - (Filtrar produtos)
+}
+
+package "Comunicação e interação" {
+ Participante - - (Enviar mensagem ao expositor)
+ Participante - - (Suporte técnico ao participante)
+ Expositor - - (Suporte técnico ao expositor)
+}
+
+package "Experiência do usuário" {
+ Participante - - (Adicionar à lista de desejos)
+ Usuario - - (Personalizar aparência da plataforma)
+}
+
+package "Avaliações e feedback" {
+ Participante - - (Avaliar compra)
+(Visualizar histórico de compras)  <..(Avaliar compra): <<includes>>
+}
+
+package "Promoções e engajamento" {
+   Expositor - - (Oferecer descontos)
+   Participante - - (Notificar descontos)
+}
+
+package "Operações offline e sincronização" {
+  Expositor - - (Realizar operações offline)
+   
+}
+
+package "Relatórios e gestão do evento" {
+  Organizador - - (Visualizar relatórios)
+
+}
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 15:12:26 BRT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>

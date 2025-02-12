@@ -274,19 +274,15 @@
 
 ---
 
-## UC12: ENVIAR MENSAGEM AO EXPOSITOR
+## **UC12: Enviar mensagem ao expositor**
 
-**Objetivo:**  
-Permitir que o ator envie mensagens assíncronas para o expositor, a fim de consultar a disponibilidade de um produto na próxima feira.
+**Objetivo**: Permitir que o ator envie mensagens assíncronas para o expositor, a fim de consultar a disponibilidade de um produto na próxima feira.
 
-**Requisitos:**  
-RF012
+**Requisitos**: RF012
 
-**Atores:**  
-Participante
+**Atores**: Participante
 
-**Condição de entrada:**  
-O ator acessa a plataforma e seleciona a opção de visualizar expositores.
+**Condição de entrada**: O ator acessa a plataforma e seleciona a opção de visualizar expositores.
 
 **Fluxo principal:**  
 1. O sistema exibe a lista dos expositores.  
@@ -309,19 +305,15 @@ O ator acessa a plataforma e seleciona a opção de visualizar expositores.
 
 ---
 
-## UC13 - SUPORTE TÉCNICO AO PARTICIPANTE
+## **UC13 - Suporte técnico ao participante**
 
-**Objetivo:**  
-Permitir que o ator acesse um canal de suporte dentro da plataforma para resolver dúvidas ou problemas relacionados ao evento.
+**Objetivo**: Permitir que o ator acesse um canal de suporte dentro da plataforma para resolver dúvidas ou problemas relacionados ao evento.
 
-**Requisitos:**  
-RF013
+**Requisitos**: RF013
 
-**Atores:**  
-Participante
+**Atores**: Participante
 
-**Condição de entrada:**  
-O ator acessa a plataforma e seleciona a opção de suporte.
+**Condição de entrada**: O ator acessa a plataforma e seleciona a opção de suporte.
 
 **Fluxo principal:**  
 1. O ator acessa a tela de suporte dentro da plataforma.  
@@ -337,7 +329,7 @@ O ator acessa a plataforma e seleciona a opção de suporte.
 7. O ator visualiza a resposta e pode continuar a conversa, se necessário.
 
 **Fluxos alternativos:**  
-- **FA1: O ator procura a resposta na aba FAQ:**  
+- **FA1 - O ator procura a resposta na aba FAQ:**  
   O ator resolve sua dúvida sem precisar enviar uma solicitação.
 
 **Fluxos de exceção:**  
@@ -346,19 +338,15 @@ O ator acessa a plataforma e seleciona a opção de suporte.
 
 ---
 
-## UC14 - SUPORTE TÉCNICO IMEDIATO AO EXPOSITOR
+## **UC14 - Suporte técnico ao expositor**
 
-**Objetivo:**  
-Permitir que o ator receba suporte técnico imediato em caso de falhas no sistema para evitar interrupções no atendimento aos participantes.
+**Objetivo**: Permitir que o ator receba suporte técnico imediato em caso de falhas no sistema para evitar interrupções no atendimento aos participantes.
 
-**Requisitos:**  
-RF014
+**Requisitos**: RF014
 
-**Atores:**  
-Expositor
+**Atores**: Expositor
 
-**Condição de entrada:**  
-O ator acessa a plataforma para solicitar suporte técnico.
+**Condição de entrada**: O ator acessa a plataforma para solicitar suporte técnico.
 
 **Fluxo principal:**  
 1. O ator acessa a opção de suporte técnico na plataforma.  
@@ -393,19 +381,15 @@ O ator acessa a plataforma para solicitar suporte técnico.
 
 ---
 
-## UC15: ADICIONAR À LISTA DE DESEJOS
+## **UC15: Adicionar à lista de desejos**
 
-**Objetivo:**  
-Permitir que o ator crie uma lista de produtos dos quais possa comprar na feira.
+**Objetivo**: Permitir que o ator crie uma lista de produtos dos quais possa comprar na feira.
 
-**Requisitos:**  
-RF015
+**Requisitos**: RF015
 
-**Atores:**  
-Participante
+**Atores**: Participante
 
-**Condição de entrada:**  
-O ator seleciona a opção “Lista de Desejos”.
+**Condição de entrada**: O ator seleciona a opção “Lista de Desejos”.
 
 **Fluxo principal:**  
 1. O ator visualiza a lista de produtos.  
@@ -429,19 +413,15 @@ Nenhum
 
 ---
 
-## UC16: PERSONALIZAR APARÊNCIA DA PLATAFORMA
+## **UC16: PERSONALIZAR INTERFACE**
 
-**Objetivo:**  
-Permitir que o ator personalize a aparência da plataforma, ajustando temas e o modo claro/escuro, para uma experiência mais confortável.
+**Objetivo**: Permitir que o ator personalize a aparência da plataforma, ajustando temas e o modo claro/escuro, para uma experiência mais confortável.
 
-**Requisitos:**  
-RF016
+**Requisitos**: RF016
 
-**Atores:**  
-Usuário comum
+**Atores**: Usuário comum
 
-**Condição de entrada:**  
-O ator acessa a opção de personalização da plataforma.
+**Condição de entrada**: O ator acessa a opção de personalização da plataforma.
 
 **Fluxo principal:**  
 1. O ator seleciona a opção de personalização de aparência no menu de configurações.  
@@ -461,19 +441,15 @@ O ator acessa a opção de personalização da plataforma.
 
 ---
 
-## UC17: AVALIAR COMPRA
+## **UC17: Avaliar compra**
 
-**Objetivo:**  
-Permitir que o ator avalie os produtos comprados na feira, fornecendo uma nota por estrelas, um comentário e a opção de anexar fotos.
+**Objetivo**:  Permitir que o ator avalie os produtos comprados na feira, fornecendo uma nota por estrelas, um comentário e a opção de anexar fotos.
 
-**Requisitos:**  
-RF017
+**Requisitos**: RF017
 
-**Atores:**  
-Participante
+**Atores**: Participante
 
-**Condição de entrada:**  
-O ator deve estar autenticado na plataforma e ter realizado pelo menos uma compra, desejando avaliar um dos produtos.
+**Condição de entrada**:  O ator deve estar autenticado na plataforma e ter realizado pelo menos uma compra, desejando avaliar um dos produtos.
 
 **Fluxo principal:**  
 1. O ator acessa a plataforma e entra na seção “Histórico de Compras”.  
@@ -499,19 +475,15 @@ O ator deve estar autenticado na plataforma e ter realizado pelo menos uma compr
 
 ---
 
-## UC18: OFERECER DESCONTOS EM PRODUTOS
+## **UC18: Oferecer descontos**
 
-**Objetivo:**  
-Permitir que o ator configure descontos em determinados produtos ou estandes, incentivando a fidelidade dos participantes ao evento.
+**Objetivo**: Permitir que o ator configure descontos em determinados produtos ou estandes, incentivando a fidelidade dos participantes ao evento.
 
-**Requisitos:**  
-RF018
+**Requisitos**: RF018
 
-**Atores:**  
-Expositor
+**Atores**: Expositor
 
-**Condição de entrada:**  
-O ator acessa a opção de gerenciamento de descontos na plataforma.
+**Condição de entrada**: O ator acessa a opção de gerenciamento de descontos na plataforma.
 
 **Fluxo principal:**  
 1. O ator acessa a tela de gerenciamento de descontos.  
@@ -531,19 +503,15 @@ O ator acessa a opção de gerenciamento de descontos na plataforma.
 
 ---
 
-## UC19: NOTIFICAR DESCONTOS
+## **UC19: Notificar desconto**
 
-**Objetivo:**  
-Notificar o ator sobre promoções e descontos em produtos e estandes que estão na sua lista de desejos, permitindo que aproveite oportunidades de compra.
+**Objetivo**: Notificar o ator sobre promoções e descontos em produtos e estandes que estão na sua lista de desejos, permitindo que aproveite oportunidades de compra.
 
-**Requisitos:**  
-RF019
+**Requisitos**: RF019
 
-**Atores:**  
-Participante
+**Atores**: Participante
 
-**Condição de entrada:**  
-O expositor cadastra um desconto em pelo menos um de seus produtos.
+**Condição de entrada**: O expositor cadastra um desconto em pelo menos um de seus produtos.
 
 **Fluxo principal:**  
 1. O sistema monitora as promoções cadastradas pelos expositores.  
@@ -559,19 +527,15 @@ Nenhum
 
 ---
 
-## UC20: REALIZAR OPERAÇÕES OFFLINE
+## **UC20: REALIZAR OPERAÇÕES OFFLINE**
 
-**Objetivo:**  
-Permitir que o sistema funcione no modo offline, garantindo a continuidade das operações diárias mesmo sem conexão com a internet. Além disso, sincronizar automaticamente os dados quando a conexão for restabelecida, mantendo as informações do evento atualizadas.
+**Objetivo**: Permitir que o sistema funcione no modo offline, garantindo a continuidade das operações diárias mesmo sem conexão com a internet. Além disso, sincronizar automaticamente os dados quando a conexão for restabelecida, mantendo as informações do evento atualizadas.
 
-**Requisitos:**  
-RF020
+**Requisitos**: RF020
 
-**Atores:**  
-Expositor
+**Atores**: Expositor
 
-**Condição de entrada:**  
-O ator acessa a plataforma em um ambiente sem conexão à internet.
+**Condição de entrada**: O ator acessa a plataforma em um ambiente sem conexão à internet.
 
 **Fluxo principal:**  
 1. O ator acessa o sistema sem conexão à internet.  
@@ -587,8 +551,7 @@ O ator acessa a plataforma em um ambiente sem conexão à internet.
    - **As informações atualizadas no servidor são baixadas para os dispositivos dos usuários**  
 6. O sistema confirma a sincronização bem-sucedida e notifica o usuário.
 
-**Fluxos alternativos:**  
-Nenhum.
+**Fluxos alternativos**: Nenhum.
 
 **Fluxos de exceção:**  
 - **E1 - Falha na sincronização:**  
@@ -598,16 +561,13 @@ Nenhum.
 
 ---
 
-## UC21: VISUALIZAR RELATÓRIOS
+## **UC21: Visualizar relatórios**
 
-**Objetivo:**  
-Permitir que o organizador visualize relatórios detalhados sobre o fluxo de participantes durante o evento, identificando horários de pico e auxiliando na melhoria da organização da feira.
+**Objetivo**: Permitir que o organizador visualize relatórios detalhados sobre o fluxo de participantes durante o evento, identificando horários de pico e auxiliando na melhoria da organização da feira.
 
-**Requisitos:**  
-RF021
+**Requisitos**:  RF021
 
-**Atores:**  
-Organizador
+**Atores**: Organizador
 
 **Condição de entrada:**  
 O ator deve estar autenticado na plataforma com permissões de acesso aos relatórios do evento.  
