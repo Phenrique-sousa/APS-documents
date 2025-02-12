@@ -634,3 +634,37 @@ Nenhum.
   Se não houver dados disponíveis para o período ou categoria escolhidos, o sistema exibe a MSG27.  
 - **E2 - Erro ao gerar o relatório:**  
   Se ocorrer um erro ao tentar gerar o relatório, o sistema exibe a MSG28.
+
+
+---
+
+# Mensagens do Sistema
+
+- **MSG01**: "Credenciais inválidas."
+- **MSG02**: "Certificado digital não foi reconhecido."
+- **MSG03**: "Compra realizada com sucesso! Seu código de retirada é *."
+- **MSG04**: "Falha no pagamento. Por favor, tente novamente."
+- **MSG05**: "Um e-mail de recuperação foi enviado para o seu endereço."
+- **MSG06**: "Senha redefinida com sucesso."
+- **MSG07**: "E-mail não cadastrado no sistema."
+- **MSG08**: "Perfil atualizado com sucesso."
+- **MSG09**: "Alterações canceladas. Nenhuma modificação foi realizada."
+- **MSG10**: "Produto salvo com sucesso."
+- **MSG11**: "Alarme de estoque salvo com sucesso."
+- **MSG12**: "Criação de notificação de estoque cancelada."
+- **MSG13**: "Ainda não há vendas registradas para seus produtos."
+- **MSG14**: "Venda realizada com sucesso."
+- **MSG15**: "Criação de registro de venda cancelada."
+- **MSG16**: "Não há compras registradas."
+- **MSG17**: "Nenhum produto encontrado."
+- **MSG18**: "Envio de mensagem cancelado."
+- **MSG19**: "Erro ao enviar mensagem."
+- **MSG20**: "Erro ao registrar solicitação ao suporte."
+- **MSG21**: "Produto removido com sucesso."
+- **MSG22**: "Falha na sincronização dos dados. Tente novamente mais tarde."
+- **MSG23**: "Você precisa selecionar ao menos uma estrela para enviar sua avaliação."
+- **MSG24**: "Erro no envio da imagem. Verifique o formato e o tamanho do arquivo e tente novamente."
+- **MSG25**: "Promoção aplicada com sucesso."
+- **MSG26**: "Não foi possível sincronizar alguns dados devido a incompatibilidades. Verifique as informações antes de tentar novamente."
+- **MSG27**: "Não há dados disponíveis para o período selecionado. Tente escolher um intervalo diferente."
+- **MSG28**: "Ocorreu um erro ao tentar gerar o relatório. Por favor, tente novamente mais tarde."
