@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+
+actor "Expositor" as Usuario
+
+usecase "Notificar venda" as UC1
+usecase "Visualizar registro de vendas" as UC2
+
+Usuario -- UC1
+
+UC2 <.. UC1 : <<extends>>
+@enduml

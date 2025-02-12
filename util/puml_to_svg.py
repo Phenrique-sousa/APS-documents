@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # Caminho absoluto do arquivo JAR (corrigido)
-plantuml_jar = r"plantuml-1.2022.12.jar"
+plantuml_jar = r"C:\Users\pedro\Downloads\pweb1\APS-documents\util\plantuml-1.2022.12.jar"
 
 # Caminho da pasta raiz onde os arquivos .puml estão
 root_dir = os.getcwd()

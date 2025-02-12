@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+
+actor "ORGANIZADOR" as Usuario
+
+usecase "Visualizar relatórios" as UC2
+
+Usuario -- UC2
+
+@enduml
