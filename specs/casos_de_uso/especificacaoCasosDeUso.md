@@ -155,7 +155,7 @@
    - O ator cancela a ação, e o sistema exibe a mensagem **MSG12**.
 
 **Fluxos de exceção**:
-- **RN8 - Validação do parâmetro para notificação**:
+- **RN6 - Validação do parâmetro para notificação**:
    - O sistema verifica se o parâmetro é um número positivo maior que zero.
 
 ---
@@ -202,7 +202,7 @@
    - O registro da venda é cancelado, exibindo a mensagem **MSG15**.
 
 **Fluxos de exceção**:
-- **RN9 - Validação dos dados de registro de venda**:  
+- **RN7 - Validação dos dados de registro de venda**:  
    - Todas as informações são obrigatórias.
 
 ---
@@ -300,7 +300,7 @@
   O envio da mensagem é cancelado, exibindo a mensagem MSG18.
 
 **Fluxos de exceção:**  
-- **RN10: Falha ao enviar a mensagem:**  
+- **RN8: Falha ao enviar a mensagem:**  
   - E1: Se houver erro ao enviar a mensagem, o sistema exibe a mensagem MSG19.
 
 ---
@@ -333,7 +333,7 @@
   O ator resolve sua dúvida sem precisar enviar uma solicitação.
 
 **Fluxos de exceção:**  
-- **RN11: Falha no envio da solicitação:**  
+- **RN9: Falha no envio da solicitação:**  
   - E1: Se houver erro ao registrar a solicitação, o sistema exibe a mensagem MSG20.
 
 ---
@@ -376,7 +376,7 @@
   Se a equipe de suporte avaliar que a solicitação pode ser resolvida sem uma ligação, a resposta será enviada apenas por mensagem na plataforma.
 
 **Fluxos de exceção:**  
-- **RN11: Falha no envio da solicitação:**  
+- **RN10: Falha no envio da solicitação:**  
   - E1: Se houver erro ao registrar a solicitação, o sistema exibe a mensagem MSG20.
 
 ---
@@ -436,7 +436,7 @@ Nenhum
   O sistema permite restaurar as configurações padrão.
 
 **Fluxos de exceção:**  
-- **RN12: Falha ao salvar as preferências:**  
+- **RN11: Falha ao salvar as preferências:**  
   - E1: Se houver erro ao salvar a personalização, o sistema exibe a mensagem MSG22 e mantém as configurações anteriores.
 
 ---
@@ -469,7 +469,7 @@ Nenhum
   O fluxo segue normalmente a partir do passo 4.
 
 **Fluxos de exceção:**  
-- **RN13 - Erros na avaliação:**  
+- **RN12 - Erros na avaliação:**  
   - E1: Se o participante tentar enviar uma avaliação sem selecionar ao menos uma estrela, o sistema exibe a mensagem MSG23.  
   - E2: Se houver falha no envio da imagem (formato inválido, tamanho excedido, etc.), o sistema exibe a mensagem MSG24.
 
@@ -498,7 +498,7 @@ Nenhum
   O ator cancela a configuração antes de confirmar, mantendo os valores anteriores e exibindo a mensagem MSG09.
 
 **Fluxos de exceção:**  
-- **RN14 - Verificação valor da promoção inserido:**  
+- **RN13 - Verificação valor da promoção inserido:**  
   O sistema verifica se o parâmetro é um número positivo maior que zero.
 
 ---
@@ -626,5 +626,6 @@ Nenhum.
 - **MSG24**: "Erro no envio da imagem. Verifique o formato e o tamanho do arquivo e tente novamente."
 - **MSG25**: "Promoção aplicada com sucesso."
 - **MSG26**: "Não foi possível sincronizar alguns dados devido a incompatibilidades. Verifique as informações antes de tentar novamente."
-- **MSG27**: "Não há dados disponíveis para o período selecionado. Tente escolher um intervalo diferente."
+- **MSG27**: "Não há dados disponíveis para o período selecionado. Tente escolher um intervalo diferente"
 - **MSG28**: "Ocorreu um erro ao tentar gerar o relatório. Por favor, tente novamente mais tarde."
+- **MSG29**: "Senha não atende aos requisitos de segurança."
