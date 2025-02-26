@@ -1,0 +1,23 @@
+@startuml
+
+start
+
+:Expositor acessa a seção "Registrar Venda";
+:Expositor clica em "Inserir registro de venda";
+:Sistema solicita os dados da venda;
+
+if (Todos os dados foram preenchidos corretamente?) then (Sim)
+    if (Expositor deseja confirmar o registro da venda?) then (Sim)
+    :Sistema exibe MSG14 "Venda registrada com sucesso";
+    else (Não)
+    :Sistema exibe MSG15 "Registro da venda cancelado";
+    stop
+    endif
+    :Sistema atualiza a listagem de vendas;
+else (Não)
+    :Sistema exibe MSG15 "Erro: Todos os campos são obrigatórios";
+endif
+
+stop
+
+@enduml
