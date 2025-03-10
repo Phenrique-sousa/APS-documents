@@ -32,7 +32,7 @@
 
 ## **Caso de Uso UC2 - Acesso sem login**
 
-**Objetivo**: Permitir que o ator acesse a plataforma sem login e realize compras utilizando diferentes métodos de pagamento.  
+**Objetivo**: Permitir que o ator acesse a plataforma sem login.  
 **Requisitos**: **RF002**  
 **Atores**: Participante  
 **Condição de entrada**: O ator acessa a plataforma sem realizar login.
@@ -40,17 +40,15 @@
 **Fluxo principal**:
 1. O ator acessa a tela de produtos.
 2. O ator navega pelos produtos disponíveis.
-3. O ator adiciona produtos ao carrinho.
-4. O ator seleciona um método de pagamento (cartão de crédito, cartão de débito, Pix ou dinheiro).
-5. O ator confirma a compra.
-6. O sistema processa o pagamento e exibe a mensagem **MSG03**.
+3. O ator pesquisa informações de produtos no catálogo.
+4. O ator adicionar itens ao carrinho (salvo na sessão).
+5. O ator visualizar informações institucionais sobre o expositor e os estandes.
 
 **Fluxos alternativos**:
 - Nenhum.
 
 **Fluxos de exceção**:
-- **E1 - Falha no pagamento**:
-   - O sistema exibe a mensagem **MSG04** e retorna ao carrinho de compras.
+- Nenhum.
 
 ---
 
@@ -183,10 +181,63 @@
 
 ---
 
-## **Caso de Uso UC8 - Registrar as vendas manualmente**
+## **Caso de Uso UC8 - Compra de produto sem autenticação**
+
+**Objetivo**: Permitir que o ator não autenticado realize transações dentro da plataforma.
+**Requisitos**: **RF008**  
+**Atores**: Usuário comum  
+**Condição de entrada**: O ator acessa a plataforma e seleciona um produto para compra.
+
+**Fluxo principal**:
+1. O ator adiciona um produto disponível no carrinho.
+2. O ator seleciona "finalizar compra".
+3. O sistema solicita as informações para compra sem autenticação: nome, telefone, e-mail.
+4. O ator insere os dados. 
+5. O ator seleciona o método de pagamento e comfirma a compra.
+6. O sistema processa o pagamento e registra a transação.
+7. O sistema exibe a mensagem de confirmação da compra **MSG03**.
+
+**Fluxos alternativos**:
+- **FA1 - Cancelamento da compra**:  
+   - O usuário decide cancelar a compra 
+   - O sistema interrompe o processo e **MSG15**.
+
+**Fluxos de exceção**:
+- **RN7 - Validação dos dados da compra**:  
+   - Todas as informações são obrigatórias.
+
+---
+
+## **Caso de Uso UC09 - Compra de produto com autenticação**
+
+**Objetivo**: Permitir que um usuário autenticado realize uma compra dentro da plataforma com preenchimento automático dos dados.
+**Requisitos**: **RF009**  
+**Atores**: Participante  
+**Condição de entrada**: O ator acessa a plataforma e faz login em sua conta.
+
+**Fluxo principal**:
+1. O ator adiciona um produto disponível para compra.
+2. O ator seleciona "finalizar compra".
+3. O sistema preenche automaticamente os dados da compra com base nas credenciais.
+4. O ator seleciona o método de pagamento e confirma a compra.
+5. O sistema processa o pagamento e registra a transação.
+6. O sistema exibe a mensagem de confirmação da compra **MSG03**.
+
+
+**Fluxos alternativos**:
+- **FA1 - Cancelamento da compra**:  
+   - O usuário decide cancelar a compra 
+   - O sistema interrompe o processo e **MSG15**.
+
+**Fluxos de exceção**:
+- Nenhum.
+
+---
+
+## **Caso de Uso UC10 - Registrar as vendas manualmente**
 
 **Objetivo**: Permitir que o ator registre as vendas realizadas pessoalmente no estande para ter todos os registros.  
-**Requisitos**: **RF008**  
+**Requisitos**: **RF010**  
 **Atores**: Expositor  
 **Condição de entrada**: O ator acessa a plataforma e seleciona a opção de listar as vendas realizadas.
 
@@ -207,33 +258,31 @@
 
 ---
 
-## **Caso de Uso UC9 - Notificar venda on-line**
+## **Caso de Uso UC11 - Notificar venda on-line**
 
 **Objetivo**: Permitir que o ator seja notificado sobre o sucesso de uma transação realizada por um participante no estande virtual, possibilitando o acompanhamento em tempo real.  
-**Requisitos**: **RF009**  
+**Requisitos**: **RF011**  
 **Atores**: Expositor  
 **Condição de entrada**: Uma compra é realizada no estande virtual.
 
 **Fluxo principal**:
 1. A compra é finalizada no estande virtual.
 2. O sistema processa a transação.
-3. Se a transação for concluída com sucesso, o sistema notifica o expositor sobre a venda realizada.
+3. A transação é concluída com sucesso, o sistema notifica o expositor sobre a venda realizada.
 4. O ator recebe a notificação em tempo real com a mensagem **MSG14**.
 
 **Fluxos alternativos**:
-- **FA1 - O ator deseja visualizar todas as vendas anteriores**:  
-   - O ator acessa a seção de notificações, clicando na notificação exibida após a venda.
-   - O sistema exibe o histórico de transações bem-sucedidas. **UC7 - Visualizar o registro das vendas**.
+- Nenhum.
 
 **Fluxos de exceção**:
 - Nenhum.
 
 ---
 
-## **Caso de Uso UC10 - Visualizar histórico de compras**
+## **Caso de Uso UC12 - Visualizar histórico de compras**
 
 **Objetivo**: Permitir que o ator visualize um histórico detalhado de todas as suas compras na feira, incluindo valores, métodos de pagamento e descontos aplicados.  
-**Requisitos**: **RF010**  
+**Requisitos**: **RF012**  
 **Atores**: Participante  
 **Condição de entrada**: O ator acessa a plataforma e seleciona a opção de visualizar o histórico de compras.
 
@@ -251,10 +300,10 @@
 
 ---
 
-## **Caso de Uso UC11 - Filtrar produtos**
+## **Caso de Uso UC13 - Filtrar produtos**
 
 **Objetivo**: Permitir que o ator realize a busca pelos produtos disponíveis na feira de forma filtrada, evitando a busca manual dentro da plataforma.  
-**Requisitos**: **RF011**  
+**Requisitos**: **RF013**  
 **Atores**: Participante  
 **Condição de entrada**: O ator acessa a barra de busca de produtos.
 
@@ -274,11 +323,11 @@
 
 ---
 
-## **UC12: Enviar mensagem ao expositor**
+## **UC14: Enviar mensagem ao expositor**
 
 **Objetivo**: Permitir que o ator envie mensagens assíncronas para o expositor, a fim de consultar a disponibilidade de um produto na próxima feira.
 
-**Requisitos**: RF012
+**Requisitos**: RF014
 
 **Atores**: Participante
 
@@ -305,11 +354,11 @@
 
 ---
 
-## **UC13 - Suporte técnico ao participante**
+## **UC15 - Suporte técnico ao participante**
 
 **Objetivo**: Permitir que o ator acesse um canal de suporte dentro da plataforma para resolver dúvidas ou problemas relacionados ao evento.
 
-**Requisitos**: RF013
+**Requisitos**: RF015
 
 **Atores**: Participante
 
@@ -338,11 +387,11 @@
 
 ---
 
-## **UC14 - Suporte técnico ao expositor**
+## **UC16 - Suporte técnico ao expositor**
 
 **Objetivo**: Permitir que o ator receba suporte técnico imediato em caso de falhas no sistema para evitar interrupções no atendimento aos participantes.
 
-**Requisitos**: RF014
+**Requisitos**: RF016
 
 **Atores**: Expositor
 
@@ -381,11 +430,11 @@
 
 ---
 
-## **UC15: Adicionar à lista de desejos**
+## **UC17: Adicionar à lista de desejos**
 
 **Objetivo**: Permitir que o ator crie uma lista de produtos dos quais possa comprar na feira.
 
-**Requisitos**: RF015
+**Requisitos**: RF017
 
 **Atores**: Participante
 
@@ -413,11 +462,11 @@ Nenhum
 
 ---
 
-## **UC16: PERSONALIZAR INTERFACE**
+## **UC18: PERSONALIZAR INTERFACE**
 
 **Objetivo**: Permitir que o ator personalize a aparência da plataforma, ajustando temas e o modo claro/escuro, para uma experiência mais confortável.
 
-**Requisitos**: RF016
+**Requisitos**: RF018
 
 **Atores**: Usuário comum
 
@@ -441,11 +490,11 @@ Nenhum
 
 ---
 
-## **UC17: Avaliar compra**
+## **UC19: Avaliar compra**
 
 **Objetivo**:  Permitir que o ator avalie os produtos comprados na feira, fornecendo uma nota por estrelas, um comentário e a opção de anexar fotos.
 
-**Requisitos**: RF017
+**Requisitos**: RF019
 
 **Atores**: Participante
 
@@ -475,11 +524,11 @@ Nenhum
 
 ---
 
-## **UC18: Oferecer descontos**
+## **UC20: Oferecer descontos**
 
 **Objetivo**: Permitir que o ator configure descontos em determinados produtos ou estandes, incentivando a fidelidade dos participantes ao evento.
 
-**Requisitos**: RF018
+**Requisitos**: RF020
 
 **Atores**: Expositor
 
@@ -503,11 +552,11 @@ Nenhum
 
 ---
 
-## **UC19: Notificar desconto**
+## **UC21: Notificar desconto**
 
 **Objetivo**: Notificar o ator sobre promoções e descontos em produtos e estandes que estão na sua lista de desejos, permitindo que aproveite oportunidades de compra.
 
-**Requisitos**: RF019
+**Requisitos**: RF021
 
 **Atores**: Participante
 
@@ -527,11 +576,11 @@ Nenhum
 
 ---
 
-## **UC20: REALIZAR OPERAÇÕES OFFLINE**
+## **UC22: REALIZAR OPERAÇÕES OFFLINE**
 
 **Objetivo**: Permitir que o sistema funcione no modo offline, garantindo a continuidade das operações diárias mesmo sem conexão com a internet. Além disso, sincronizar automaticamente os dados quando a conexão for restabelecida, mantendo as informações do evento atualizadas.
 
-**Requisitos**: RF020
+**Requisitos**: RF022
 
 **Atores**: Expositor
 
@@ -561,11 +610,11 @@ Nenhum
 
 ---
 
-## **UC21: Visualizar relatórios**
+## **UC23: Visualizar relatórios**
 
 **Objetivo**: Permitir que o organizador visualize relatórios detalhados sobre o fluxo de participantes durante o evento, identificando horários de pico e auxiliando na melhoria da organização da feira.
 
-**Requisitos**:  RF021
+**Requisitos**:  RF023
 
 **Atores**: Organizador
 

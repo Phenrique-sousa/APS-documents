@@ -12,32 +12,34 @@
 
 ## 3. Transações e vendas
 - **[RF007]** Como expositor, eu gostaria de poder listar as vendas que eu faço, com os dados: data, nome do produto, quantidade, valor, método de pagamento e descontos aplicados, para que eu possa saber quando um produto foi vendido.
-- **[RF008]** Como expositor, eu gostaria de poder registrar as vendas que eu faço pessoalmente, com os dados: data, nome do produto, quantidade, valor, método de pagamento, para que eu possa acompanhar as transações realizadas no estande.
-- **[RF009]** Como expositor, eu gostaria de ser notificado sobre o êxito na transação de um participante que está comprando na minha estande, para que eu possa acompanhar as vendas em tempo real.
-- **[RF010]** Como participante, eu gostaria de visualizar um histórico detalhado de todas as minhas compras na feira, incluindo data, nome do produto, valor, método de pagamento e descontos aplicados.
-- **[RF011]** Como participante, gostaria de realizar a busca pelos produtos disponíveis na feira, a fim de evitar o trabalho manual de busca dentro da plataforma. O filtro deve ser feito por nome do produto, segmento do produto e faixa de preço.
+- **[RF008]** Como usuário não autenticado, eu gostaria de poder comprar um produto sem precisar de cadastro, informando apenas os dados essenciais para a compra (nome, e-mail e método de pagamento), para que eu possa adquirir produtos de forma rápida e prática.
+- **[RF009]** Como participante autenticado, eu gostaria de poder realizar compras utilizando minha conta cadastrada, com preenchimento dos meus dados já salvos na plataforma.
+- **[RF010]** Como expositor, eu gostaria de poder registrar as vendas que eu faço pessoalmente, com os dados: data, nome do produto, quantidade, valor, método de pagamento, para que eu possa acompanhar as transações realizadas no estande.
+- **[RF011]** Como expositor, eu gostaria de ser notificado sobre o êxito na transação de um participante que está comprando na minha estande, para que eu possa acompanhar as vendas em tempo real.
+- **[RF012]** Como participante, eu gostaria de visualizar um histórico detalhado de todas as minhas compras na feira, incluindo data, nome do produto, valor, método de pagamento e descontos aplicados.
+- **[RF013]** Como participante, gostaria de realizar a busca pelos produtos disponíveis na feira, a fim de evitar o trabalho manual de busca dentro da plataforma. O filtro deve ser feito por nome do produto, segmento do produto e faixa de preço.
 
 ## 4. Comunicação e interação
-- **[RF012]** Como participante, gostaria de acessar o perfil do expositor através de um ícone na tela de vendas e enviar uma mensagem assíncrona para consultar a disponibilidade de um produto na próxima feira. A tela de conversa exibirá o nome e foto do participante e do expositor, se houver, assim como o conteúdo da mensagem, data e hora de envio. O expositor poderá responder quando disponível, informando a disponibilidade do produto. O histórico de mensagens será mantido, com data, hora e status da mensagem (lida ou não), permitindo o acompanhamento das interações.
-- **[RF013]** Como participante, desejo acessar um canal de suporte dentro da plataforma para solucionar dúvidas ou problemas relacionados ao evento. Esse canal deve oferecer uma seção de perguntas frequentes (FAQ) e a possibilidade de contato direto com a equipe de suporte. Ao selecionar a opção de envio de mensagem, a solicitação deve ser registrada, incluindo informações a descrição detalhada, facilitando o acompanhamento e a resolução do caso.
-- **[RF014]** Como expositor, eu gostaria de receber suporte técnico imediato dentro da plataforma para solucionar falhas no sistema e evitar interrupções no atendimento aos participantes. Esse canal deve incluir uma seção de perguntas frequentes (FAQ) e possibilitar o contato direto com a equipe de suporte por meio do envio de mensagens. Ao optar pelo envio de mensagens, devo poder descrever detalhadamente o problema, selecionar a categoria da solicitação, anexar capturas de tela e/ou outros arquivos relevantes e registrar a solicitação, que será encaminhada automaticamente para a equipe de suporte técnico, garantindo uma resposta rápida e uma solução eficiente.
+- **[RF014]** Como participante, gostaria de acessar o perfil do expositor através de um ícone na tela de vendas e enviar uma mensagem assíncrona para consultar a disponibilidade de um produto na próxima feira. A tela de conversa exibirá o nome e foto do participante e do expositor, se houver, assim como o conteúdo da mensagem, data e hora de envio. O expositor poderá responder quando disponível, informando a disponibilidade do produto. O histórico de mensagens será mantido, com data, hora e status da mensagem (lida ou não), permitindo o acompanhamento das interações.
+- **[RF015]** Como participante, desejo acessar um canal de suporte dentro da plataforma para solucionar dúvidas ou problemas relacionados ao evento. Esse canal deve oferecer uma seção de perguntas frequentes (FAQ) e a possibilidade de contato direto com a equipe de suporte. Ao selecionar a opção de envio de mensagem, a solicitação deve ser registrada, incluindo informações a descrição detalhada, facilitando o acompanhamento e a resolução do caso.
+- **[RF016]** Como expositor, eu gostaria de receber suporte técnico imediato dentro da plataforma para solucionar falhas no sistema e evitar interrupções no atendimento aos participantes. Esse canal deve incluir uma seção de perguntas frequentes (FAQ) e possibilitar o contato direto com a equipe de suporte por meio do envio de mensagens. Ao optar pelo envio de mensagens, devo poder descrever detalhadamente o problema, selecionar a categoria da solicitação, anexar capturas de tela e/ou outros arquivos relevantes e registrar a solicitação, que será encaminhada automaticamente para a equipe de suporte técnico, garantindo uma resposta rápida e uma solução eficiente.
 
 ## 5. Experiência do usuário
-- **[RF015]** Como participante, eu gostaria de criar uma lista de desejos com produtos e expositores favoritos, para facilitar minhas compras e interações futuras.
-- **[RF016]** Como usuário comum, eu gostaria de poder personalizar a aparência da plataforma, ajustando temas e modo claro/escuro, para uma experiência mais confortável.
+- **[RF017]** Como participante, eu gostaria de criar uma lista de desejos com produtos e expositores favoritos, para facilitar minhas compras e interações futuras.
+- **[RF018]** Como usuário comum, eu gostaria de poder personalizar a aparência da plataforma, ajustando temas e modo claro/escuro, para uma experiência mais confortável.
 
 ## 6. Avaliações e feedback
-- **[RF017]** Como participante, eu gostaria de poder avaliar os produtos comprados na feira, com o propósito de opinar sobre o que foi consumido. As opiniões devem ser formuladas por estrelas (1 a 5), ter um comentário e poder enviar fotos.
+- **[RF019]** Como participante, eu gostaria de poder avaliar os produtos comprados na feira, com o propósito de opinar sobre o que foi consumido. As opiniões devem ser formuladas por estrelas (1 a 5), ter um comentário e poder enviar fotos.
 
 ## 7. Promoções e engajamento
-- **[RF018]** Como expositor, eu gostaria de oferecer descontos em determinados produtos ou estandes, como forma de incentivar a fidelidade dos participantes ao evento.
-- **[RF019]** Como participante, eu gostaria de ser notificado sobre promoções e descontos em produtos e estandes que estão na minha lista de desejos, para que eu possa aproveitar as oportunidades de compra.
+- **[RF020]** Como expositor, eu gostaria de oferecer descontos em determinados produtos ou estandes, como forma de incentivar a fidelidade dos participantes ao evento.
+- **[RF021]** Como participante, eu gostaria de ser notificado sobre promoções e descontos em produtos e estandes que estão na minha lista de desejos, para que eu possa aproveitar as oportunidades de compra.
 
 ## 8. Operações offline e sincronização
-- **[RF020]** Como expositor, desejo que o sistema possa realizar operações diárias no modo offline, de forma que a ausência de uma conexão de dados não impeça a realização do evento. Além disso, gostaria que os dados sobre os produtos e operações do evento fossem sincronizados automaticamente assim que a conexão fosse restabelecida, permitindo a atualização sobre novos produtos, reposições e alterações nos produtos existentes.
+- **[RF022]** Como expositor, desejo que o sistema possa realizar operações diárias no modo offline, de forma que a ausência de uma conexão de dados não impeça a realização do evento. Além disso, gostaria que os dados sobre os produtos e operações do evento fossem sincronizados automaticamente assim que a conexão fosse restabelecida, permitindo a atualização sobre novos produtos, reposições e alterações nos produtos existentes.
 
 ## 9. Relatórios e gestão do evento
-- **[RF021]** Como organizador, eu gostaria de visualizar relatórios detalhados sobre a participação no evento, incluindo horários de pico, total de vendas realizadas e quantidade de retiradas de produtos, para que eu possa analisar o desempenho do evento e aprimorar a organização da feira.
+- **[RF023]** Como organizador, eu gostaria de visualizar relatórios detalhados sobre a participação no evento, incluindo horários de pico, total de vendas realizadas e quantidade de retiradas de produtos, para que eu possa analisar o desempenho do evento e aprimorar a organização da feira.
 
 # Requisitos não funcionais
 
