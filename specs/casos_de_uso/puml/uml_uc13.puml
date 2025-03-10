@@ -3,7 +3,7 @@ left to right direction
 
 actor "Participante" as Usuario
 
-usecase "Suporte ao Participante" as UC2
+usecase "Filtrar produtos" as UC2
 
 Usuario -- UC2
 

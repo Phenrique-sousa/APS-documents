@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="88px" preserveAspectRatio="none" style="width:303px;height:88px;background:#FFFFFF;" version="1.1" viewBox="0 0 303 88" width="303px" zoomAndPan="magnify"><defs/><g><!--MD5=[128f0757cf0ea77f14e95a88885fd9f7]
-entity Usuario--><g id="elem_Usuario"><ellipse cx="35" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M35,22 L35,49 M22,30 L48,30 M35,49 L22,64 M35,49 L48,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="6" y="80.0332">Expositor</text></g><g id="elem_UC2"><ellipse cx="210.9661" cy="44.2932" fill="#F1F1F1" rx="86.9661" ry="19.7932" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="145.4661" y="48.0217">Suporte ao expositor</text></g><!--MD5=[a79f49966e18d505242c6265dffaeae2]
-link Usuario to UC2--><g id="link_Usuario_UC2"><path d="M64.34,44.5 C80.71,44.5 102.27,44.5 123.77,44.5 " fill="none" id="Usuario-UC2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a4eea12adff805eb538f66c1e0cf86ba]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="88px" preserveAspectRatio="none" style="width:377px;height:88px;background:#FFFFFF;" version="1.1" viewBox="0 0 377 88" width="377px" zoomAndPan="magnify"><defs/><g><!--MD5=[128f0757cf0ea77f14e95a88885fd9f7]
+entity Usuario--><g id="elem_Usuario"><ellipse cx="43.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M43.5,22 L43.5,49 M30.5,30 L56.5,30 M43.5,49 L30.5,64 M43.5,49 L56.5,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="6" y="80.0332">Participante</text></g><g id="elem_UC2"><ellipse cx="256.4736" cy="44.4947" fill="#F1F1F1" rx="115.4736" ry="25.4947" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="158.9736" y="48.2232">Enviar mensagem ao Expositor</text></g><!--MD5=[a79f49966e18d505242c6265dffaeae2]
+link Usuario to UC2--><g id="link_Usuario_UC2"><path d="M81.25,44.5 C98.14,44.5 119.18,44.5 140.75,44.5 " fill="none" id="Usuario-UC2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[805b94be676df46401f56922da18f027]
 @startuml
 left to right direction
 
-actor "Expositor" as Usuario
+actor "Participante" as Usuario
 
-usecase "Suporte ao expositor" as UC2
+usecase "Enviar mensagem ao Expositor" as UC2
 
 Usuario - - UC2
 

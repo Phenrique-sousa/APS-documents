@@ -3,10 +3,8 @@ left to right direction
 
 actor "Participante" as Usuario
 
-usecase "Avaliar compra" as UC1
-usecase "Visualizar histórico de compras" as UC2
+usecase "Adicionar produto à lista de desejos" as UC2
 
-Usuario -- UC1
+Usuario -- UC2
 
-UC2 <.. UC1 : <<includes>>
 @enduml

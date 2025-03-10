@@ -3,7 +3,7 @@ left to right direction
 
 actor "Expositor" as Usuario
 
-usecase "Suporte ao expositor" as UC2
+usecase "Realizar operações offline" as UC2
 
 Usuario -- UC2
 

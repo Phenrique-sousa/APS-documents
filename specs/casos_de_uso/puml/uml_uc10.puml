@@ -1,10 +1,12 @@
 @startuml
 left to right direction
 
-actor "Participante" as Usuario
+actor "Expositor" as Usuario
 
-usecase "Visualizar histórico de compras" as UC2
+usecase "Registrar as vendas manualmente" as UC1
+usecase "Visualizar o registro das vendas" as UC2
 
-Usuario -- UC2
+Usuario -- UC1
 
+UC2 <.. UC1 : <<includes>>
 @enduml

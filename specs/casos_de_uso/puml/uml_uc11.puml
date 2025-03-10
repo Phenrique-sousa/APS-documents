@@ -1,10 +1,10 @@
 @startuml
 left to right direction
 
-actor "Participante" as Usuario
+actor "Expositor" as Usuario
 
-usecase "Filtrar produtos" as UC2
+usecase "Notificar venda" as UC1
 
-Usuario -- UC2
+Usuario -- UC1
 
 @enduml

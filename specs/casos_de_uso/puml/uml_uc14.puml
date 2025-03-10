@@ -1,9 +1,9 @@
 @startuml
 left to right direction
 
-actor "Expositor" as Usuario
+actor "Participante" as Usuario
 
-usecase "Suporte ao expositor" as UC2
+usecase "Enviar mensagem ao Expositor" as UC2
 
 Usuario -- UC2
 
