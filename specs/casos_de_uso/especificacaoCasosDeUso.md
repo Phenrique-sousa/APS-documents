@@ -15,8 +15,7 @@
    - 4.2. O sistema detecta o certificado digital.
 5. O ator clica no botão "Entrar".
 6. O sistema valida as credenciais fornecidas. **RN1**
-7. O sistema verifica se o ator possui permissão de acesso.
-8. O sistema redireciona o ator para a página inicial.
+7. O sistema redireciona o ator para a página inicial.
 
 **Fluxos alternativos**:
 - **FA1 - Esqueci minha senha**:
