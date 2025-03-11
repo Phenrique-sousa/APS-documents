@@ -29,10 +29,12 @@ package "SGFPO" {
   Participante -- (Visualizar histórico de compras)
   Participante -- (Filtrar produtos)
  Participante -- (Enviar mensagem ao expositor)
+  Participante -- (Comprar produto com autenticação)
  Participante -- (Suporte técnico ao participante)
  Expositor -- (Suporte técnico ao expositor)
  Participante -- (Adicionar à lista de desejos)
  Usuario -- (Personalizar aparência da plataforma)
+ Usuario -- (Comprar produto sem autenticação)
  Participante -- (Avaliar compra)
 (Visualizar histórico de compras)  <..(Avaliar compra): <<includes>>
    Expositor -- (Oferecer descontos)
