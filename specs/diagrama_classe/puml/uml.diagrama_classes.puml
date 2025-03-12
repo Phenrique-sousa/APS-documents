@@ -1,0 +1,157 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+
+abstract class Transacao {
+    -id_transacao: int
+    -data_transacao: Date
+    -quantidade_vendida: int
+    -valor_total: float
+    -metodo_pagamento: String
+    +listar_transacao(transacoes: List<Transacao>): void
+}
+
+class Compra extends Transacao {
+    -desconto: float
+    -comprador: Participante
+    -carrinho_compra: List<ItemProduto>
+    +detalhar_compra(compra: Compra): void
+    +aplicar_desconto(codigo: String): void
+    +exibir_produtos_comprados(produtos: List<Produto>): void
+    +processar_compra(): void
+    +adicionar_carrinho(item: ItemProduto): void
+    +remover_carrinho(item: ItemProduto): void
+    +inserir_dados_compra(comprador: Participante): void
+}
+
+class Venda extends Transacao {
+    +registrar_manual(): void
+}
+
+class Usuario {
+    -nome: String
+    -e-mail: String
+    -senha: String
+    -telefone: String
+    -certificado_digital: String
+    +validar_credenciais(): void
+    +verificar_senha(): void
+    +verificar_email(): void
+    +redefinir_senha(): void
+    +alterar_perfil(): void
+}
+
+class Organizador extends Usuario {}
+
+class Participante extends Usuario {
+    -lista_desejo: ListaDesejos
+}
+
+class Expositor extends Usuario {
+    -numero_estande: int
+    -produtos_ofertados: List<Produto>
+    +cadastrar_produto(): void
+    +editar_produto(): void
+    +remover_produto(): void
+    +listar_expositores(): void
+}
+
+class Produto {
+    -nome_produto: String
+    -quantidade_disponivel: int
+    -preço: float
+    -parametro_notificacao: int
+    +notificar_estoque(): void
+    +alterar_notificacao_estoque(): void
+    +listar_produto(): void
+    +definir_desconto(): void
+}
+
+class ItemProduto {
+    -id_item: int
+    -quantidade_item: int
+    -produto_selecionado: Produto
+    +atualizar_quantidade(): void
+}
+
+class ListaDesejos {
+    -produtos_desejados: List<Produto>
+    +adicionar_produto_desejo(): void
+    +remover_produto_desejo(): void
+    +exibir_lista_desejos(): void
+}
+
+class Notificacao {
+    -data_notificacao: Date
+    -conteúdo: String
+    +notificar_desconto(): void
+    +notificar_expositor(): void
+}
+
+class Mensagem {
+    -id_mensagem: int
+    -conteúdo_msg: String
+    -data_envio: Date
+    -hora_envio: Time
+    -status_msg: String
+    +enviar_mensagem(): void
+    +exibir_historico_msg(): void
+    +atualizar_status_msg(): void
+}
+
+class Suporte {
+    -id_solicitação: int
+    -descricao: String
+    -data: Date
+    -status: String
+    -prioridade: String
+    -solicitante: Usuario
+    +registrar_solicitacao(): void
+    +listar_solicitacoes(): void
+    +responder_solicitacao(): void
+    +atualizar_status_solicitacao(): void
+}
+
+class Avaliacao {
+    -produto_avaliado: Produto
+    -avaliador: Participante
+    -estrelas: int
+    -comentario: String
+    -imagem: String
+    -data_avaliacao: Date
+    +enviar_avaliacao(): void
+    +excluir_avaliacao(): void
+}
+
+class Relatorio {
+    -periodo: String
+    -vendas: List<Venda> 
+    -compras: List<Compra> 
+    -produtosAnalisados: List<Produto> 
+    -participantesRegistrados: List<Participante> 
+    -expositoresRegistrados: List<Expositores> 
+    +gerar_relatorio(): void
+}
+
+' Associações
+
+Organizador "*" -- "*" Relatorio: "visualiza"
+Relatorio "*" -- "*" Venda : "compila dados de"
+Relatorio "*" -- "*" Compra : "registra"
+Relatorio "*" -- "*" Produto : "analisa desempenho de"
+Relatorio "*" -- "*" Expositor : "avalia"
+Relatorio "*" -- "*" Participante : "contabiliza presença de"
+Participante "*" -- "*" Avaliacao: "avalia"
+Produto "*" -- "*" Avaliacao: "avaliado"
+ListaDesejos "1" -- "1" Participante: "pertence"
+ListaDesejos "1" -- "*" Produto: "contém"
+ItemProduto "1" -- "1" Produto: "tem"
+ItemProduto "1" -- "1" Compra: "pertence"
+Compra "1" -- "1" Participante: "realiza"
+Expositor "1" -- "*" Produto: "gerencia"
+Expositor "1" -- "*" Venda: "gerencia"
+Notificacao "1" -- "*" Participante: "recebe"
+Mensagem "1" -- "1" Participante: "envia"
+Mensagem "1" -- "1" Expositor: "recebe"
+Suporte "1" -- "1" Usuario: "solicita"
+@enduml
