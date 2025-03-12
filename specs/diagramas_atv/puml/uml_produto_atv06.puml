@@ -1,0 +1,14 @@
+@startuml
+start
+
+:Receber produto e novo limite mínimo;
+:Validar novo limite;
+if (Limite é válido?) then (Sim)
+  :Atualizar configuração de notificação;
+  :Exibir mensagem de atualização;
+else (Não)
+  :Exibir mensagem de erro;
+endif
+
+stop
+@enduml

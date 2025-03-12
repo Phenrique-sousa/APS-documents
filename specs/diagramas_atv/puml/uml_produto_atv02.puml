@@ -1,0 +1,19 @@
+@startuml
+start
+
+:Receber dados do produto a ser editado;
+:Verificar validade dos dados fornecidos;
+if (Dados válidos?) then (Sim)
+  :Buscar produto na plataforma;
+  if (Produto encontrado?) then (Sim)
+    :Atualizar informações do produto;
+    :Exibir mensagem de sucesso;
+  else (Não)
+    :Exibir mensagem de erro;
+  endif
+else (Não)
+  :Exibir mensagem de erro;
+endif
+stop
+
+@enduml

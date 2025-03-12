@@ -1,0 +1,14 @@
+@startuml
+start
+
+:Receber produto e quantidade atual;
+:Obter limite mínimo configurado;
+if (Quantidade ≤ Limite Mínimo?) then (Sim)
+  :Disparar notificação de estoque baixo;
+  :Exibir mensagem do estoque abaixo;
+else (Não)
+  :Nenhuma ação necessária;
+endif
+
+stop
+@enduml

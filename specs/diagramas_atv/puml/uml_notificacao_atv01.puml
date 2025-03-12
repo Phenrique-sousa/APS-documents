@@ -1,0 +1,8 @@
+@startuml
+start
+
+:Receber ID do expositor e mensagem;
+:Enviar notificação para o expositor;
+:Exibir confirmação de envio;
+stop
+@enduml

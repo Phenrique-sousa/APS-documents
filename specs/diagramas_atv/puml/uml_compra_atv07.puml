@@ -1,0 +1,13 @@
+@startuml
+start
+
+:Receber dados bancarios para a compra;
+:Validar dados;
+if (Dados válidos?) then (Sim)
+  :Salvar informações da compra;
+else (Não)
+  :Exibir mensagem de erro;
+endif
+
+stop
+@enduml

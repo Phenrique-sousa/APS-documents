@@ -1,0 +1,13 @@
+@startuml
+start
+
+:Receber credenciais;
+:Verificar credenciais fornecidas;
+if (Credenciais válidas?) then (Sim)
+  :Acesso permitido;
+else (Não)
+  :Exibir mensagem de erro;
+endif
+stop
+
+@enduml

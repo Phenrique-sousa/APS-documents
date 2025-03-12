@@ -1,0 +1,14 @@
+@startuml
+start
+
+:Receber ID do produto e quantidade;
+:Verificar disponibilidade do produto;
+if (Produto disponível?) then (Sim)
+  :Adicionar produto ao carrinho;
+  :Exibir mensagem de confirmação;
+else (Não)
+  :Exibir mensagem de erro;
+endif
+
+stop
+@enduml

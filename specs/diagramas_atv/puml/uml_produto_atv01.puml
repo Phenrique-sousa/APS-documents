@@ -1,0 +1,14 @@
+@startuml
+start
+
+:Receber dados do novo produto;
+:Verificar validade dos dados do produto;
+if (Dados válidos?) then (Sim)
+  :Cadastrar produto na plataforma;
+  :Exibir mensagem de sucesso;
+else (Não)
+  :Exibir mensagem de erro;
+endif
+
+stop
+@enduml

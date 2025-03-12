@@ -1,0 +1,13 @@
+@startuml
+start
+
+:Receber ID da compra;
+:Buscar detalhes da compra no banco de dados;
+if (Compra encontrada?) then (Sim)
+  :Exibir detalhes da compra;
+else (Não)
+  :Exibir mensagem de erro;
+endif
+
+stop
+@enduml

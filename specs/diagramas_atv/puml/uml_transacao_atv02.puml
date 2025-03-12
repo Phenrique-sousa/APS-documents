@@ -1,0 +1,9 @@
+@startuml
+start
+
+:Receber itens da transação;
+:Calcular o total somando os valores dos itens;
+:Exibir total da transação;
+stop
+
+@enduml

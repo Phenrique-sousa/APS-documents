@@ -1,0 +1,13 @@
+@startuml
+start
+
+:Receber código de desconto e valor da compra;
+:Verificar validade do código;
+if (Código válido?) then (Sim)
+  :Aplicar desconto ao valor da compra;
+else (Não)
+  :Exibir mensagem de erro;
+endif
+
+stop
+@enduml

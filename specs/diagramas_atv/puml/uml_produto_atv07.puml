@@ -1,0 +1,13 @@
+@startuml
+start
+
+:Receber critérios de busca;
+:Buscar produtos no banco de dados;
+if (Produtos encontrados?) then (Sim)
+  :Exibir lista de produtos filtrados;
+else (Não)
+  :Exibir mensagem de lista vazia;
+endif
+
+stop
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+start
+
+:Receber senha fornecida;
+:Verificar senha;
+if (Senha correta?) then (Sim)
+  :Acesso permitido;
+else (Não)
+  :Exibir mensagem de erro;
+endif
+stop
+
+@enduml

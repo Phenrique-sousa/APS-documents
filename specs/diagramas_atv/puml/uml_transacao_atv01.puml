@@ -1,0 +1,13 @@
+@startuml
+start
+
+:Solicitar listagem de transações;
+:Consultar banco de dados;
+if (Transações encontradas?) then (Sim)
+  :Exibir lista de transações;
+else (Não)
+  :Exibir mensagem de lista vazia;
+endif
+
+stop
+@enduml

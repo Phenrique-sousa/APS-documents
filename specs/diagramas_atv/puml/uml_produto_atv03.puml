@@ -1,0 +1,14 @@
+@startuml
+start
+
+:Receber identificação do produto a ser removido;
+:Verificar se o produto existe na plataforma;
+if (Produto encontrado?) then (Sim)
+  :Remover produto da plataforma;
+  :Exibir mensagem de sucesso;
+else (Não)
+  :Exibir mensagem de erro;
+endif
+
+stop
+@enduml
