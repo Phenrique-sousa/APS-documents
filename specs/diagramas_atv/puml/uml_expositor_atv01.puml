@@ -1,0 +1,12 @@
+@startuml
+start
+
+:Buscar expositores no banco de dados;
+if (Expositores encontrados?) then (Sim)
+  :Exibir lista de expositores;
+else (Não)
+  :Exibir mensagem de erro;
+endif
+
+stop
+@enduml

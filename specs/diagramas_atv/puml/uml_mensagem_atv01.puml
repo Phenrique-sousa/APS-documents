@@ -1,0 +1,8 @@
+@startuml
+start
+
+:Receber destinatário e conteúdo da mensagem;
+  :Enviar mensagem para o destinatário;
+  :Exibir confirmação de envio;
+stop
+@enduml

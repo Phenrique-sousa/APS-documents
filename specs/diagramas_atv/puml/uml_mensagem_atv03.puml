@@ -1,0 +1,12 @@
+@startuml
+start
+
+:Verificar status atual;
+if (Mensagem lida?) then (Sim)
+  :Atualizar status para “lida”;
+else (Não)
+  :Nenhuma ação necessária;
+endif
+
+stop
+@enduml

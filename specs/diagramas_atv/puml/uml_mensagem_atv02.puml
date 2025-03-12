@@ -1,0 +1,12 @@
+@startuml
+start
+
+:Buscar mensagens na conversa;
+if (Mensagens encontradas?) then (Sim)
+  :Exibir histórico de mensagens na tela do chat;
+else (Não)
+  :Exibir mensagem de chat vazio;
+endif
+
+stop
+@enduml
