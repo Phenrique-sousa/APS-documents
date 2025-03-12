@@ -1,0 +1,13 @@
+@startuml
+start
+
+:Verificar se o produto já está na lista de desejos;
+if (Produto já adicionado?) then (Sim)
+  :Exibir mensagem de produto já adicionado;
+else (Não)
+  :Adicionar produto à lista de desejos;
+  :Exibir confirmação;
+endif
+
+stop
+@enduml

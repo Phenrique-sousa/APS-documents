@@ -1,0 +1,9 @@
+@startuml
+start
+
+:Receber ID do produto e percentual de desconto;
+:Buscar usuários interessados no produto;
+:Enviar notificação de desconto;
+
+stop
+@enduml

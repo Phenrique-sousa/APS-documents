@@ -1,13 +1,19 @@
 @startuml
 start
 
-:Receber senha fornecida;
-:Verificar senha;
-if (Senha correta?) then (Sim)
-  :Acesso permitido;
+:Receber email fornecido;
+:Verificar formato do email;
+if (Email válido?) then (Sim)
+  :Verificar existência do email;
+  if (Email encontrado?) then (Sim)
+    :Email válido e registrado;
+  else (Não)
+    :Exibir mensagem de erro;
+  endif
 else (Não)
   :Exibir mensagem de erro;
 endif
 stop
 
 @enduml
+

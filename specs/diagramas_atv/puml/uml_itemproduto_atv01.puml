@@ -1,0 +1,16 @@
+@startuml
+start
+
+:Receber ID do item e nova quantidade;
+:Verificar existência do item;
+if (Item encontrado?) then (Sim)
+  :Atualizar quantidade do item;
+  :Exibir confirmação de edição;
+else (Não)
+  :Exibir mensagem de erro;
+endif
+
+stop
+@enduml
+
+

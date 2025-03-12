@@ -1,0 +1,9 @@
+@startuml
+start
+
+:Receber informações do usuário, produto e avaliação;
+:Registrar avaliação;
+:Exibir confirmação de sucesso;
+
+stop
+@enduml

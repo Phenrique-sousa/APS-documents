@@ -1,0 +1,14 @@
+@startuml
+start
+
+:Receber parâmetros do relatório;
+:Buscar dados no banco de dados;
+if (Dados encontrados?) then (Sim)
+  :Gerar relatório;
+  :Exibir confirmação;
+else (Não)
+  :Exibir mensagem sem dados;
+endif
+
+stop
+@enduml

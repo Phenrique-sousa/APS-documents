@@ -1,10 +1,10 @@
 @startuml
 start
 
-:Receber dados de acesso;
-:Verificar credenciais de acesso;
-if (Credenciais válidas?) then (Sim)
-  :Acesso concedido;
+:Receber senha fornecida;
+:Verificar senha;
+if (Senha correta?) then (Sim)
+  :Acesso permitido;
 else (Não)
   :Exibir mensagem de erro;
 endif

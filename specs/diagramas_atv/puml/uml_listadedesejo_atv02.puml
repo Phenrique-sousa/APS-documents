@@ -1,0 +1,13 @@
+@startuml
+start
+
+:Verificar se o produto está na lista de desejos;
+if (Produto encontrado?) then (Sim)
+  :Remover produto da lista de desejos;
+  :Exibir confirmação;
+else (Não)
+  :Exibir mensagem de erro;
+endif
+
+stop
+@enduml

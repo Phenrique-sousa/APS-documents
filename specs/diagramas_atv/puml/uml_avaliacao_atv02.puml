@@ -1,0 +1,9 @@
+@startuml
+start
+
+:Receber identificação da avaliação;
+:Remover avaliação;
+:Exibir confirmação de exclusão;
+
+stop
+@enduml

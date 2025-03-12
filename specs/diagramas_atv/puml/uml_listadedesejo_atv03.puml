@@ -1,0 +1,12 @@
+@startuml
+
+:Receber ID do usuário;
+:Buscar lista de desejos no banco de dados;
+if (Produtos encontrados?) then (Sim)
+  :Exibir lista de produtos desejados;
+else (Não)
+  :Exibir mensagem de lista vazia;
+endif
+
+stop
+@enduml
