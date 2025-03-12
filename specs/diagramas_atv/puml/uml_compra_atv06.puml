@@ -1,0 +1,14 @@
+@startuml
+start
+
+:Receber ID do usuário e ID do produto;
+:Buscar item no carrinho;
+if (Item encontrado?) then (Sim)
+  :Remover item do carrinho;
+  :Exibir mensagem de sucesso;
+else (Não)
+  :Exibir mensagem de erro;
+endif
+
+stop
+@enduml

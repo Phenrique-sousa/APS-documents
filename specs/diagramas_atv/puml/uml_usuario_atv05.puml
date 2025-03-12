@@ -2,8 +2,8 @@
 start
 
 :Receber dados de novo perfil;
-:Verificar permissões para alteração;
-if (Permissão concedida?) then (Sim)
+:Verificar dados válidos para alteração;
+if (Dados válidos?) then (Sim)
   :Atualizar dados de perfil;
   :Exibir mensagem de sucesso;
 else (Não)

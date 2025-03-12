@@ -1,9 +1,9 @@
 @startuml
 start
 
-:Consultar banco de dados para obter lista de produtos;
+:Buscar produtos comprados associados ao participante;
 if (Produtos encontrados?) then (Sim)
-  :Exibir lista de produtos;
+  :Exibir lista de produtos comprados;
 else (Não)
   :Exibir mensagem de lista vazia;
 endif

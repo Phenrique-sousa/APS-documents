@@ -1,7 +1,7 @@
 @startuml
 start
 
-:Consultar banco de dados;
+:Consultar banco de dados para obter transações;
 if (Transações encontradas?) then (Sim)
   :Exibir lista de transações;
 else (Não)

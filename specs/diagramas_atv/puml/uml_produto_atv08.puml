@@ -1,0 +1,10 @@
+@startuml
+start
+
+:Receber ID do produto e percentual de desconto;
+:Aplicar desconto ao preço do produto;
+:Salvar novo preço com desconto;
+:Exibir confirmação;
+
+stop
+@enduml

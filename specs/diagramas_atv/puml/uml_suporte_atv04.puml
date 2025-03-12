@@ -1,0 +1,17 @@
+@startuml
+start
+
+:Receber ID da solicitação e status;
+:Verificar existência da solicitação;
+if (Solicitação encontrada?) then (Sim)
+    if (Solicitaçãa resolvida?) then (Sim)
+        :Atualizar status para resolvido;
+    else (Não)
+        :Atualizar status para não resolvido;
+    endif
+else (Não)
+  :Exibir mensagem de erro;
+endif
+
+stop
+@enduml

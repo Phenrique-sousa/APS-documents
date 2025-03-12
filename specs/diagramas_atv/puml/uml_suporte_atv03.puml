@@ -1,0 +1,14 @@
+@startuml
+start
+
+:Receber ID da solicitação;
+:Verificar se a solicitação está aberta;
+if (Solicitação pendente?) then (Sim)
+  :Salvar resposta e atualizar status para "Respondida";
+  :Notificar usuário sobre a resposta;
+else (Não)
+  :Exibir mensagem de erro;
+endif
+
+stop
+@enduml

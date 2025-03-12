@@ -1,0 +1,12 @@
+@startuml
+start
+
+:Buscar solicitações no banco de dados;
+if (Solicitações encontradas?) then (Sim)
+  :Exibir lista de solicitações;
+else (Não)
+  :Exibir mensagem de não encontrada;
+endif
+
+stop
+@enduml

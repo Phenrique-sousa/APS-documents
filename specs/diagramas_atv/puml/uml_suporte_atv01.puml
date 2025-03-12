@@ -1,0 +1,9 @@
+@startuml
+start
+
+:Receber ID do usuário e descrição do problema;
+:Gerar um número de protocolo;
+:Registrar solicitação no sistema com status "Aberto";
+:Exibir confirmação e registro;
+stop
+@enduml

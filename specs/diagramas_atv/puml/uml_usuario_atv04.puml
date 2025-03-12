@@ -1,0 +1,22 @@
+@startuml
+start
+
+:Receber e-mail do usuário;
+:Verificar se o e-mail está cadastrado;
+if (E-mail cadastrado?) then (Sim)
+  :Gerar e enviar token de redefinição;
+  :Receber nova senha e token;
+  :Validar token;
+  if (Token válido?) then (Sim)
+    :Atualizar senha no sistema;
+    :Exibir confirmação;
+  else (Não)
+    :Exibir mensagem de erro;
+  endif
+else (Não)
+  :Exibir mensagem de erro;
+
+endif
+
+stop
+@enduml
